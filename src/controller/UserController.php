@@ -1,10 +1,15 @@
 <?php
-require('../model/Conexion.php');
 
-$conexion = new Conexion();
-$usuarios = $conexion->getUsers();
+echo "UserController called! </br>";
+
+require_once('model/Conexion.php');
+$conn= new Conexion();
+
+$usuarios = $conn->read();
+$usuarios = $conn->getUsers();
 
 
-require ('../view/User_View.php');
+
+require_once('view/VerUsuarios.php');
 
 ?>
