@@ -3,17 +3,40 @@ header {
   text-align: right;
 }
 
+section div {
+  background-color: #cccccc;
+  display: flexbox;
+  list-style: none;
+}
 section nav ul {
   list-style: none;
 }
 
 section nav ul li {
   display: inline-block;
-  border: 2px solid #cccccc;
+  border: 2px solid #a60356;
   padding: 5px 15px;
+  box-sizing: border-box;
 }
 
 section nav ul li a {
   text-decoration: none;
-  color: #555;
+  color: #a60356;
+}
+.logo {
+  top: 0;
+  width: 120px;
+  height: 100px;
+  text-align: left;
+  align-content: left;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+header section a {
+  flex-basis: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }

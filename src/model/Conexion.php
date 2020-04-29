@@ -1,17 +1,16 @@
 <?php
-echo "Conexion called! </br>";
+echo "Debug: Conexion called! </br>";
 class Conexion{
 
-    
     private $conexion;
     private $servername = "localhost";
     private $db="projeto";
     private $username = "root";
     private $password = "admin";
-    function __construct($servername,$db,$username,$password)
+    function __construct()
     {
         try{
-        $this->conexion= new PDO("mysql:host=$servername;dbname=$db", $username, $password);    
+        $this->conexion= new PDO("mysql:host=$this->servername;dbname=$this->db", $this->username, $this->password);    
         }
         catch (PDOException $e){
             return "Uh Oh!.$e";
@@ -19,22 +18,14 @@ class Conexion{
     }
 
     public function getUsers(){
-        echo "GetUsers </br>";
+        echo "Debug: GetUsers </br>";
         $stmt = $this->conexion->prepare("SELECT * FROM usuarios");
         $stmt->execute();
 
         $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
         
+        return $result;
      
-
-        foreach ($result as $row) {
-            $data = [];
-            foreach ($row as $key => $value) {
-                array_push($data, utf8_encode($value));
-            }
-
-        return $data;
-         }
     }
 
      public function read ($tbl, $clmns, $where = '')

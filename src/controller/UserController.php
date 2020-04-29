@@ -1,15 +1,14 @@
 <?php
 
-echo "UserController called! </br>";
+echo "Debug: UserController called! </br>";
 
 require_once('model/Conexion.php');
-$conn= new Conexion();
+$conn = new Conexion();
 
-$usuarios = $conn->read();
-$usuarios = $conn->getUsers();
+// $usuarios = $conn->read("usuarios","primeiro_nome");
+ $usuarios = $conn->getUsers();
 
+require('./view/VerUsuarios.php');
 
-
-require_once('view/VerUsuarios.php');
 
 ?>

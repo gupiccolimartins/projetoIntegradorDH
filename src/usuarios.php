@@ -1,4 +1,4 @@
 <?php 
-echo"Teste MVC </br>";
+echo"Debug: Teste MVC </br>";
 require('./controller/UserController.php');
 ?>
