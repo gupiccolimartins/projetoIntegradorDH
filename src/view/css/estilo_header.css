@@ -1,15 +1,13 @@
-header {
-  flex-basis: 100%;
-  text-align: right;
-}
-
 section div {
   background-color: #cccccc;
-  display: flexbox;
-  list-style: none;
+
+  text-align: right;
+  overflow: hidden;
 }
-section nav ul {
-  list-style: none;
+
+section nav {
+  float: right;
+  margin: 40px 20px 0 20px;
 }
 
 section nav ul li {
@@ -23,20 +21,9 @@ section nav ul li a {
   text-decoration: none;
   color: #a60356;
 }
-.logo {
-  top: 0;
-  width: 120px;
-  height: 100px;
-  text-align: left;
-  align-content: left;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
 
-header section a {
-  flex-basis: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+.logo {
+  float: left;
+  position: relative;
+  margin: 10px 20px 20px 20px;
 }
