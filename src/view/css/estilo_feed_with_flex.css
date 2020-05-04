@@ -28,13 +28,13 @@ main {
   margin-left: auto;
   border: 1px solid #ddd;
   border-radius: 10px;
-  display: inline-flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 /* Perfil  Inicio*/
 .user_data {
-  width: calc(100%-40px);
+  width: calc(40% - 40px);
   float: left;
   margin: 20px 0 0 5px;
   background-color: #78da6b;
@@ -57,7 +57,6 @@ p {
 }
 .user_data a img {
   height: 250px;
-  width: auto;
   border-radius: 50%;
   margin-right: auto;
   margin-left: auto;
@@ -67,7 +66,7 @@ p {
 }
 
 .user_data .container {
-  width: 650px;
+  max-width: 500px;
 }
 /* Perfil Fim*/
 /* Panel esquerdo Fim*/
@@ -75,7 +74,7 @@ p {
 /* Panel dereito */
 /* section dos items dos feeds */
 .div_feed_items {
-  width: calc(100%-40px); /*ocupa o 100% do tamanho das colunas*/
+  width: calc(60% - 40px); /*ocupa o 100% do tamanho das colunas */
   float: right;
   margin: 20px 0 0 5px;
   background: yellowgreen;
@@ -83,16 +82,17 @@ p {
   border-radius: 10px;
   text-align: center;
   padding-bottom: 10px;
-  text-align: center;
-  padding: 60px 25px;
+  padding: 60px 5px;
 }
 
 .div_feed_items .items {
-  width: calc(96% -40px);
+  width: calc(96% - 40px);
   margin: 20px 10px 0 10px;
   background: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .div_feed_items .items a img {
   margin-right: auto;
@@ -102,7 +102,9 @@ p {
 }
 .div_feed_items .items h1,
 h2,
+h3,
 p {
   font-family: Roboto;
   text-align: center;
+  padding: 10px 10px 10px 10px;
 }

@@ -63,7 +63,6 @@ p {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
   position: relative;
-  text-align: center;
   padding-bottom: 10px;
 }
 
@@ -74,11 +73,65 @@ p {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
 }
-.div_feed_items .items a img {
+/* Seccao do perfil do usuario Inicio */
+.div_feed_items .items .items_usuario {
+  text-align: left;
+}
+.div_feed_items .items .items_usuario ul li {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.div_feed_items .items .items_usuario ul li h3 {
+  margin-left: 20px;
+  font-weight: bold;
+  color: #ed1e24;
+  font-size: 2em;
+  margin-top: 50px;
+}
+.div_feed_items .items .items_usuario ul li p {
+  line-height: 25px;
+  font-size: 2em;
+  margin-left: 20px;
+}
+.div_feed_items .items .items_usuario a img {
+  height: 250px;
+  width: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-left: 10px;
+  position: relative;
+}
+.div_feed_items .items .items_usuario .opcoes_usuario_avaliacao {
+  text-align: center;
+}
+.div_feed_items .items .items_usuario .opcoes_usuario_avaliacao li {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+}
+.div_feed_items .items .items_usuario .opcoes_usuario_avaliacao li a img {
+  height: 40px;
+}
+
+/* Seccao do perfil do usuario Inicio */
+
+/* Seccao do item Inicio */
+.div_feed_items .items .items_detalhe {
+  text-align: center;
+}
+.div_feed_items .items .items_detalhe h2 {
+  font-weight: bold;
+  color: #ed1e24;
+}
+.div_feed_items .items .items_detalhe .item_detalhe_ferramenta img {
   margin-right: auto;
   margin-left: auto;
   margin-top: 10px;
   text-align: center;
+  width: calc(80% - 40px);
+  height: 350px;
 }
 .div_feed_items .items h1,
 h2,
@@ -86,3 +139,22 @@ p {
   font-family: Roboto;
   text-align: center;
 }
+/* Opcoes do item Inicio */
+.div_feed_items .items .items_detalhe .opcoes_usuario_item {
+  padding: 20px;
+}
+.div_feed_items .items .items_detalhe .opcoes_usuario_item li {
+  text-decoration: none;
+  color: #a60356;
+  font-family: helvetica, arial;
+  font-size: 1.3em;
+  padding: 50px;
+  display: inline-block;
+}
+
+.div_feed_items .items .items_detalhe .opcoes_usuario_item li a img {
+  border-color: black;
+  height: 40px;
+}
+/* Opcoes do item Fim */
+/* Seccao do item Fim */
