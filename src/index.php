@@ -11,9 +11,9 @@
 
     <!-- Including the header -->
 
-    <h1>
-        Header
-    </h1>
+
+    <?php include('./view/Header.php');?>
+
 
     <main>
 

@@ -1,4 +1,4 @@
-<section class="perfil">
+<section class="user_data">
     <h1>Usuario Nome</h1>
     <p>Lorem Ipsum</p>
     <a href="#">
@@ -14,4 +14,7 @@
         <li>Recomendeme</li>
         <li>0 Recomendaçoes</li>
     </ul>
+    <div class="container">
+        <p>lorem ipsum </p>
+    </div>
 </section>

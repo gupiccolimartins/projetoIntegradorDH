@@ -1,29 +1,39 @@
 section div {
   background-color: #cccccc;
-
   text-align: right;
   overflow: hidden;
 }
 
 section nav {
   float: right;
-  margin: 40px 20px 0 20px;
+  margin: 50px 50px 0 0;
 }
 
 section nav ul li {
   display: inline-block;
-  border: 2px solid #a60356;
-  padding: 5px 15px;
-  box-sizing: border-box;
 }
 
 section nav ul li a {
   text-decoration: none;
   color: #a60356;
+  font-family: helvetica, arial;
+  font-size: 1.3em;
+  padding: 20px;
+}
+
+section nav ul li:hover {
+  background-color: #cf6d81;
+  color: #111;
+}
+section nav ul li a:hover {
+  background-color: #cf6d81;
+  color: #111;
+  text-decoration: none;
+  border-bottom: 1px solid #fff;
 }
 
 .logo {
   float: left;
   position: relative;
-  margin: 10px 20px 20px 20px;
+  margin: 10px 10px 10 40px;
 }

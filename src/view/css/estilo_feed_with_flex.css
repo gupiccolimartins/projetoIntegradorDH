@@ -1,0 +1,108 @@
+/* Geral Inicio*/
+body,
+p,
+h1,
+h2,
+input,
+textarea {
+  margin: 0;
+  font-family: Roboto;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+/* Geral Fim*/
+main {
+  width: 100%;
+  padding: 5px;
+  background-color: #b1aeae;
+  margin: 0;
+}
+
+#div_principal {
+  background-color: #fff;
+  width: 95%;
+  margin-right: auto;
+  margin-left: auto;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  display: inline-flex;
+  flex-direction: row;
+}
+
+/* Perfil  Inicio*/
+.user_data {
+  width: calc(100%-40px);
+  float: left;
+  margin: 20px 0 0 5px;
+  background-color: #78da6b;
+  border-radius: 10%;
+  box-shadow: 0px 4px 4px rgba(201, 178, 178, 0.25);
+  text-align: center;
+  padding: 60px 5px;
+}
+.user_data h1,
+h2,
+p {
+  font-family: arial;
+  text-align: center;
+}
+
+.user_data a {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+.user_data a img {
+  height: 250px;
+  width: auto;
+  border-radius: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.user_data .container {
+  width: 650px;
+}
+/* Perfil Fim*/
+/* Panel esquerdo Fim*/
+
+/* Panel dereito */
+/* section dos items dos feeds */
+.div_feed_items {
+  width: calc(100%-40px); /*ocupa o 100% do tamanho das colunas*/
+  float: right;
+  margin: 20px 0 0 5px;
+  background: yellowgreen;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  text-align: center;
+  padding-bottom: 10px;
+  text-align: center;
+  padding: 60px 25px;
+}
+
+.div_feed_items .items {
+  width: calc(96% -40px);
+  margin: 20px 10px 0 10px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.div_feed_items .items a img {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10px;
+  text-align: center;
+}
+.div_feed_items .items h1,
+h2,
+p {
+  font-family: Roboto;
+  text-align: center;
+}

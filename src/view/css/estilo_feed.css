@@ -25,6 +25,17 @@
   top: 136px;
 }
 
+/* Style para os elementos do panel Perfil  Inicio*/
+.user_data img {
+  height: 250px;
+  width: auto;
+  border-radius: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/* Fim*/
 .main article {
   flex-basis: calc(50% - 40px - 20px);
   padding: 20px;

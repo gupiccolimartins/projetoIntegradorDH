@@ -1,10 +1,11 @@
-footer {
+.estilo_footer {
   background: rgba(196, 196, 196, 0.25);
   color: black;
-  padding: 10px;
-  margin: auto;
+  padding: 5px;
+  margin-bottom: 0;
   text-align: center;
   box-sizing: border-box;
   font-family: Josefin Sans;
   font-size: 24px;
+  clear: both;
 }

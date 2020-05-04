@@ -1,0 +1,88 @@
+/* Geral Inicio*/
+body,
+p,
+h1,
+h2,
+input,
+textarea {
+  margin: 0;
+  font-family: Roboto;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+/* Geral Fim*/
+main {
+  width: 100%;
+  padding: 5px;
+  background-color: #b1aeae;
+  margin: 0;
+}
+
+/* Perfil  Inicio*/
+.user_data {
+  width: 100%;
+  margin: 20px 0 0 5px;
+  background-color: #cf6d81;
+  border-radius: 10%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.user_data h1,
+h2,
+p {
+  font-family: arial;
+  text-align: center;
+}
+
+.user_data a {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+.user_data a img {
+  height: 250px;
+  width: auto;
+  border-radius: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+/* Perfil Fim*/
+/* Panel esquerdo Fim*/
+
+/* Panel dereito */
+/* section dos items dos feeds */
+.div_feed_items {
+  width: 100%; /*ocupa o 100% do tamanho das colunas*/
+  margin: 20px 0 0 5px;
+  background: yellowgreen;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.div_feed_items .items {
+  width: calc(96% -40px);
+  margin: 20px 10px 0 10px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.div_feed_items .items a img {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10px;
+  text-align: center;
+}
+.div_feed_items .items h1,
+h2,
+p {
+  font-family: Roboto;
+  text-align: center;
+}
