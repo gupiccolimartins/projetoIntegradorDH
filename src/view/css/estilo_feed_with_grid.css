@@ -66,6 +66,10 @@ p {
   padding-bottom: 10px;
 }
 
+.div_feed_items h1,
+h2 {
+  text-align: center;
+}
 .div_feed_items .items {
   width: calc(96% -40px);
   margin: 20px 10px 0 10px;
