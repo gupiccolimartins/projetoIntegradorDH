@@ -14,232 +14,69 @@
         <!-- Including the header -->
         <?php include('./Header.php'); ?>
     </header>
-
-
+    <!-- Main -->
     <main class="main">
-
-        <div class="row mb-2">
-            <div class="col-md-4">
+        <div class="row ">
+            <div class="col-md-4 container">
                 <!-- Including the left panel with the UserData -->
                 <?php include('./UserData.php');?>
             </div>
-
-            <div class="col-md-8">
-                <div class="div_feed_items">
-                    <h1>
-                        O que os vizinhos estão procurando!
-                    </h1>
-                    <p>
-                        Aqui você encontra os itens publicados recentemente
-                    </p>
-                    <article class="items">
-                        <!-- Foto e dados do usuario -->
-                        <div class="items_usuario">
-                            <ul>
-                                <li>
+            <div class="col-md-8 container">
+                <article class="div_feed_items">
+                    <h2> O que os vizinhos estão procurando!</h2>
+                    <p>Aqui você encontra os itens publicados recentemente</p>
+                    <div class="card  text-center">
+                        <div class="card-body">
+                            <!-- Foto e dados do usuario -->
+                            <div class="info_usuario container row">
+                                <div class="col-md-4 perfil">
                                     <a href="#">
                                         <img src="img/perfil.png" alt="perfil" title="perfil" />
-                                    </a></li>
-                                <li>
-                                    <h3>User Nome</h3>
+                                    </a>
+                                </div>
+                                <div class=" col-md-6 opcoes_usuario">
+                                    <h3>Marcelo</h3>
                                     <p>Apto 205 - Bloco A</p>
-                                    <!-- Avaliacao do usuario -->
-
-                                    <ul class="opcoes_usuario_avaliacao">
+                                    <div class="opcoes_usuario_avaliacao">
+                                        <ul>
+                                            <li> <a href="#">
+                                                    <img src="img/star1.svg" alt="avaliacao" title="avaliacao" />
+                                                </a>
+                                                <p>4.5</p>
+                                            </li>
+                                            <li> <a href="#">
+                                                    <img src="img/hands.png" alt="publicacoes" title="publicacoes" />
+                                                </a>
+                                                <p>25</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="detalhe_item">
+                                <a href="#">
+                                    <img src="img/ferramentas.jpeg" alt="ferramentas" title="ferramentas" />
+                                </a>
+                                <h5>Alguem tem uma mala parecida com essa para emprestimo!</h5>
+                                <div class="acoes_detalhe_item">
+                                    <ul>
                                         <li> <a href="#">
-                                                <img src="img/star1.svg" alt="avaliacao" title="avaliacao" />
-                                            </a>
-                                            <p>4.5</p>
-                                        </li>
-
+                                                <img src="img/favorite1.svg" alt="favorito" title="favorito" />
+                                            </a></li>
                                         <li> <a href="#">
-                                                <img src="img/hands.png" alt="publicacoes" title="publicacoes" />
-                                            </a>
-                                            <p>25</p>
-                                        </li>
-
+                                                <img src="img/chat.svg" alt="message" title="message" />
+                                            </a></li>
+                                        <li> <a href="#">
+                                                <img src="img/share.svg" alt="compartilhar" title="compartilhar" />
+                                            </a></li>
                                     </ul>
-                                </li>
-                            </ul>
+                                </div>
+                            </div>
                         </div>
-                        <div class="items_detalhe">
-                            <a class="item_detalhe_ferramenta" href="#">
-                                <img src="img/ferramentas.jpeg" alt="item" title="item" />
-                            </a>
-                            <h2>Item Nome</h2>
+                </article>
 
-                            <p>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                Ipsum
-                                has
-                                been
-                                the industry's standard dummy text ever since the 1500s, when an unknown printer
-                                took a
-                                galley
-                                of type and scrambled it to make a type specimen book. It has survived not only five
-                                centuries,
-                                but also the leap into electronic typesetting, remaining essentially unchanged. It
-                                was
-                                popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
-                                passages,
-                                and more recently with desktop publishing software like Aldus PageMaker including
-                                versions
-                                of
-                                Lorem Ipsum
-                            </p>
-                            <ul class="opcoes_usuario_item">
-                                <li> <a href="#">
-                                        <img src="img/favorite1.svg" alt="favorito" title="favorito" />
-                                    </a></li>
-                                <li> <a href="#">
-                                        <img src="img/chat.svg" alt="message" title="message" />
-                                    </a></li>
-                                <li> <a href="#">
-                                        <img src="img/share.svg" alt="compartilhar" title="compartilhar" />
-                                    </a></li>
-                            </ul>
-                        </div>
-                    </article>
-                    <article class="items">
-                        <!-- Foto e dados do usuario -->
-                        <div class="items_usuario">
-                            <ul>
-                                <li>
-                                    <a href="#">
-                                        <img src="img/perfil.png" alt="perfil" title="perfil" />
-                                    </a></li>
-                                <li>
-                                    <h3>User Nome</h3>
-                                    <p>Apto 205 - Bloco A</p>
-                                    <!-- Avaliacao do usuario -->
-
-                                    <ul class="opcoes_usuario_avaliacao">
-                                        <li> <a href="#">
-                                                <img src="img/star1.svg" alt="avaliacao" title="avaliacao" />
-                                            </a>
-                                            <p>4.5</p>
-                                        </li>
-
-                                        <li> <a href="#">
-                                                <img src="img/hands.png" alt="publicacoes" title="publicacoes" />
-                                            </a>
-                                            <p>25</p>
-                                        </li>
-
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="items_detalhe">
-                            <a class="item_detalhe_ferramenta" href="#">
-                                <img src="img/ferramentas.jpeg" alt="item" title="item" />
-                            </a>
-                            <h2>Item Nome</h2>
-
-                            <p>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                Ipsum
-                                has
-                                been
-                                the industry's standard dummy text ever since the 1500s, when an unknown printer
-                                took a
-                                galley
-                                of type and scrambled it to make a type specimen book. It has survived not only five
-                                centuries,
-                                but also the leap into electronic typesetting, remaining essentially unchanged. It
-                                was
-                                popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
-                                passages,
-                                and more recently with desktop publishing software like Aldus PageMaker including
-                                versions
-                                of
-                                Lorem Ipsum
-                            </p>
-                            <ul class="opcoes_usuario_item">
-                                <li> <a href="#">
-                                        <img src="img/favorite1.svg" alt="favorito" title="favorito" />
-                                    </a></li>
-                                <li> <a href="#">
-                                        <img src="img/chat.svg" alt="message" title="message" />
-                                    </a></li>
-                                <li> <a href="#">
-                                        <img src="img/share.svg" alt="compartilhar" title="compartilhar" />
-                                    </a></li>
-                            </ul>
-                        </div>
-                    </article>
-                    <article class="items">
-                        <!-- Foto e dados do usuario -->
-                        <div class="items_usuario">
-                            <ul>
-                                <li>
-                                    <a href="#">
-                                        <img src="img/perfil.png" alt="perfil" title="perfil" />
-                                    </a></li>
-                                <li>
-                                    <h3>User Nome</h3>
-                                    <p>Apto 205 - Bloco A</p>
-                                    <!-- Avaliacao do usuario -->
-
-                                    <ul class="opcoes_usuario_avaliacao">
-                                        <li> <a href="#">
-                                                <img src="img/star1.svg" alt="avaliacao" title="avaliacao" />
-                                            </a>
-                                            <p>4.5</p>
-                                        </li>
-
-                                        <li> <a href="#">
-                                                <img src="img/hands.png" alt="publicacoes" title="publicacoes" />
-                                            </a>
-                                            <p>25</p>
-                                        </li>
-
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="items_detalhe">
-                            <a class="item_detalhe_ferramenta" href="#">
-                                <img src="img/ferramentas.jpeg" alt="item" title="item" />
-                            </a>
-                            <h2>Item Nome</h2>
-
-                            <p>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                Ipsum
-                                has
-                                been
-                                the industry's standard dummy text ever since the 1500s, when an unknown printer
-                                took a
-                                galley
-                                of type and scrambled it to make a type specimen book. It has survived not only five
-                                centuries,
-                                but also the leap into electronic typesetting, remaining essentially unchanged. It
-                                was
-                                popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
-                                passages,
-                                and more recently with desktop publishing software like Aldus PageMaker including
-                                versions
-                                of
-                                Lorem Ipsum
-                            </p>
-                            <ul class="opcoes_usuario_item">
-                                <li> <a href="#">
-                                        <img src="img/favorite1.svg" alt="favorito" title="favorito" />
-                                    </a></li>
-                                <li> <a href="#">
-                                        <img src="img/chat.svg" alt="message" title="message" />
-                                    </a></li>
-                                <li> <a href="#">
-                                        <img src="img/share.svg" alt="compartilhar" title="compartilhar" />
-                                    </a></li>
-                            </ul>
-                        </div>
-                    </article>
-                </div>
             </div>
-
-
+        </div>
     </main>
     <!-- Including the footer -->
     <div>

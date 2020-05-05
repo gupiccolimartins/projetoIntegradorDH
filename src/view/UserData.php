@@ -1,7 +1,7 @@
 <!-- Esta pagina vai utilizar direito o estilo CSS "user_data" quie se encontra no CSS principal. estilo_feed_include.css 
 Asi funciona como exemplo de ter todos os estilos em um solo arquivo CSS -->
 <section class="user_data">
-    <h1>Usuario Nome</h1>
+    <h2>Usuario Nome</h2>
     <p>Lorem Ipsum</p>
     <a href="#">
         <img src="./img/perfil.png" alt="perfil" , title="perfil" class="perfil" />
@@ -16,7 +16,5 @@ Asi funciona como exemplo de ter todos os estilos em um solo arquivo CSS -->
         <li>Recomendeme</li>
         <li>0 Recomendaçoes</li>
     </ul>
-    <div class="container">
-        <p>lorem ipsum </p>
-    </div>
+
 </section>

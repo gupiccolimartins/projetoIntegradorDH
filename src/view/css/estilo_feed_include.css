@@ -25,6 +25,9 @@
 /* FIM main */
 
 /* Estilo para os elementos do panel Perfil  UserData.php*/
+.user_data {
+  width: 100%;
+}
 .user_data img {
   height: 250px;
   width: auto;
