@@ -23,12 +23,11 @@
 
             <ul>
                 <li><a href="../index.php">Home</a></li>
-                <li><a href="./view/Feed.php">Feed</a></li>
-                <li><a href="./view/FeedWithGrid.php">Feed com Grids</a></li>
-                <li><a href="./view/FeedWithFlex.php">Feed com Flex</a></li>
+                <li><a href="./view/FeedExemploDeInclude.php">Feed Exemplo de Include</a></li>
+                <li><a href="./view/FeedWithGrid.php">Feed (In Progress)</a></li>
                 <li><a href="#">Quem Somos</a></li>
                 <li><a href="#">Contato</a></li>
-                <li><a href="./view/User_View.php">Outros</a></li>
+                <li><a href="./usuarios.php">DB Test</a></li>
 
             </ul>
 

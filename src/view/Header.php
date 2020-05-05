@@ -10,11 +10,11 @@
 
             <ul>
                 <li><a href="../index.php">Home</a></li>
-                <li><a href="./Feed.php">Feed Basico</a></li>
-                <li><a href="./FeedWithGrid.php">Feed com Grids</a></li>
-                <li><a href="./FeedWithFlex.php">Feed com Flex</a></li>
+                <li><a href="./FeedExemploDeInclude.php">Feed exemplo de include</a></li>
+                <li><a href="./FeedWithGrid.php">Feed (In Progress)</a></li>
                 <li><a href="#">Quem Somos</a></li>
                 <li><a href="#">Contato</a></li>
+                <li><a href="../usuarios.php">DB Test</a></li>
             </ul>
         </nav>
     </div>

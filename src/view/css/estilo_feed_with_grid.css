@@ -14,7 +14,7 @@ h2 {
 }
 
 /* Geral Fim*/
-main {
+.main {
   width: 100%;
   padding: 5px;
   background-color: #b1aeae;
@@ -143,6 +143,7 @@ p {
   font-family: Roboto;
   text-align: center;
 }
+
 /* Opcoes do item Inicio */
 .div_feed_items .items .items_detalhe .opcoes_usuario_item {
   padding: 20px;
@@ -159,6 +160,13 @@ p {
 .div_feed_items .items .items_detalhe .opcoes_usuario_item li a img {
   border-color: black;
   height: 40px;
+}
+
+/* detalhe item texto*/
+
+.div_feed_items .items .items_detalhe p {
+  margin-left: auto;
+  margin-right: auto;
 }
 /* Opcoes do item Fim */
 /* Seccao do item Fim */
