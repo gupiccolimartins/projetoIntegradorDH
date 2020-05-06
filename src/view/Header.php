@@ -4,12 +4,12 @@
 <section class="section_header">
     <div>
         <a href="#">
-            <img src="./img/logo-2.png" width="120" height="100" alt="logo" , title="logo" class="logo" />
+            <img src="../../src/view/img/logo-2.png" width="120" height="100" alt="logo" , title="logo" class="logo" />
         </a>
         <nav>
 
             <ul>
-                <li><a href="../index.php">Home</a></li>
+                <li><a href="../../public/index.php">Home</a></li>
                 <li><a href="../view/Feed.php">Feed</a></li>
                 <li><a href="#">Quem Somos</a></li>
                 <li><a href="#">Contato</a></li>

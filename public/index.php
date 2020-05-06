@@ -5,12 +5,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
-    <link href="./view/css/estilo_header.css" rel="stylesheet" type="text/css" />
-    <link href="./view/css/estilo_footer.css" rel="stylesheet" type="text/css" />
+    <link href="../src/view/css/estilo_header.css" rel="stylesheet" type="text/css" />
+    <link href="../src/view/css/estilo_footer.css" rel="stylesheet" type="text/css" />
     <!-- Codigo para o estilo da pagina index.php -->
     <style type="text/css">
     .principal {
-        background-image: url('./view/img/banner.png');
+        background-image: url('../src/view/img/banner.png');
         clear: both;
         background-size: 100%;
         min-height: 400px;
@@ -37,7 +37,7 @@
 <body>
     <header>
         <!-- Including the header -->
-        <?php include('./view/Header.php'); ?>
+        <?php include('../src/view/Header.php'); ?>
     </header>
     <!-- Main -->
     <main>
@@ -45,7 +45,7 @@
             <h1> Pagina Home</h1>
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="./view/Feed.php">Feed</a></li>
+                <li><a href="../src/view/Feed.php">Feed</a></li>
                 <li><a href="#">Quem Somos</a></li>
                 <li><a href="#">Contato</a></li>
             </ul>
@@ -64,7 +64,7 @@
         </div>
     </div>
     <!-- Including the footer -->
-    <?php include('./view/Footer.php'); ?>
+    <?php include('../src/view/Footer.php'); ?>
 </body>
 
 </html>
