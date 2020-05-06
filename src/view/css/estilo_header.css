@@ -1,19 +1,19 @@
-section div {
+.section_header div {
   background: rgba(196, 196, 196, 0.25);
   text-align: right;
   overflow: hidden;
 }
 
-section nav {
+.section_header nav {
   float: right;
   margin: 50px 50px 0 0;
 }
 
-section nav ul li {
+.section_header nav ul li {
   display: inline-block;
 }
 
-section nav ul li a {
+.section_header nav ul li a {
   text-decoration: none;
   color: #a60356;
   font-family: helvetica, arial;
@@ -21,11 +21,11 @@ section nav ul li a {
   padding: 20px;
 }
 
-section nav ul li:hover {
+.section_header nav ul li:hover {
   background-color: #cf6d81;
   color: #111;
 }
-section nav ul li a:hover {
+.section_header nav ul li a:hover {
   background-color: #cf6d81;
   color: #111;
   text-decoration: none;

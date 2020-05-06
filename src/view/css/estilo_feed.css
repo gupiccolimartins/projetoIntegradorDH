@@ -14,8 +14,9 @@ textarea {
 .main {
   width: 100%;
   /* background-color: rgba(196, 196, 196, 0.25); */
-  background-color: #e5e5e5;
-  margin: 0;
+  background: white;
+  background-color: white;
+  margin: 10px 0 0 0;
 }
 
 /* Perfil  panel esquerdo*/
@@ -152,7 +153,27 @@ h2 {
   margin: 10px;
   padding-top: 10px;
 }
-/* FIM */
+/* CSS do div da resposta a uma publiccacao */
+
+.info_usuario_resposta {
+  border-top: 1px solid #c4c4c4;
+  margin: 10px;
+}
+.detalhe_item .resposta {
+  text-align: center;
+  float: right;
+}
+
+.detalhe_item .resposta textarea {
+  background-color: white;
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+/* Opcoes para responder a uma publicacao */
+
 .opcoes_usuario {
   text-align: left;
 }
@@ -182,7 +203,7 @@ h2 {
   text-align: center;
 }
 .opcoes_usuario_avaliacao ul li a img {
-  height: 25px;
+  height: 35px;
 }
 
 .opcoes_usuario_avaliacao ul li p {

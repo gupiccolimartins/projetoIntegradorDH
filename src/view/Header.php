@@ -1,7 +1,7 @@
 <head>
     <link href="css/estilo_header.css" rel="stylesheet" type="text/css" />
 </head>
-<section>
+<section class="section_header">
     <div>
         <a href="#">
             <img src="./img/logo-2.png" width="120" height="100" alt="logo" , title="logo" class="logo" />

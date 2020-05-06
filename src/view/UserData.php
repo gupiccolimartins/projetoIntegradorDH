@@ -4,7 +4,7 @@ Asi funciona como exemplo de ter todos os estilos em um solo arquivo CSS -->
     <h2>Usuario Nome</h2>
     <p>Lorem Ipsum</p>
     <a href="#">
-        <img src="./img/perfil.png" alt="perfil" , title="perfil" class="perfil" />
+        <img src="./img/perfil1.png" alt="perfil" , title="perfil" class="perfil" />
     </a>
     <ul>
         <li>Marcelo souza</li>
