@@ -1,5 +1,5 @@
 section div {
-  background-color: #cccccc;
+  background: rgba(196, 196, 196, 0.25);
   text-align: right;
   overflow: hidden;
 }
