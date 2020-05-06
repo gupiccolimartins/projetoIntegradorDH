@@ -10,7 +10,7 @@
 
             <ul>
                 <li><a href="../index.php">Home</a></li>
-                <li><a href="./Feed.php">Feed</a></li>
+                <li><a href="../view/Feed.php">Feed</a></li>
                 <li><a href="#">Quem Somos</a></li>
                 <li><a href="#">Contato</a></li>
             </ul>

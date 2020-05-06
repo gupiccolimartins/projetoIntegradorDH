@@ -185,7 +185,7 @@
                                         </div>
                                     </div>
                                     <!-- Resposta a uma publicacao -->
-                                    <div class="info_usuario_resposta container row">
+                                    <div class="info_usuario_resposta container d-flex justify-content-end">
                                         <div class="col-md-4 perfil">
                                             <a href="#">
                                                 <img src="img/perfil3.png" alt="perfil usuario resposta"
@@ -197,7 +197,7 @@
                                             <p>Apto 62 - Bloco B</p>
                                         </div>
                                     </div>
-                                    <div class="input-group  resposta col-md-10">
+                                    <div class="input-group  resposta col-md-10 d-flex justify-content-end">
                                         <textarea class="form-control" placeholder="Eu Tenho!" readonly></textarea>
                                     </div>
                                 </div>

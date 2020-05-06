@@ -158,9 +158,10 @@ h2 {
 .info_usuario_resposta {
   border-top: 1px solid #c4c4c4;
   margin: 10px;
+  float: right;
 }
 .detalhe_item .resposta {
-  text-align: center;
+  text-align: right;
   float: right;
 }
 
