@@ -26,7 +26,7 @@
         </div>
         <div class="row">
             <div class="banner">
-                <img src="../src/view/img/1.png" alt="banner ">
+                <img src="../src/view/img/banner/1.png" alt="banner ">
             </div>
         </div>
         <div class="row">
@@ -56,14 +56,14 @@
                 <div class="col-2">
                 </div>
                 <div class="cards">
-                    <img src="../src/view/img/avatar/marcelo.png">
+                    <img src="../src/view/img/avatar/Marcelo.png">
                     <div class="row">
                         <div class="estrela">
-                            <img src="../src/view/img/star.png">
-                            <img src="../src/view/img/star.png">
-                            <img src="../src/view/img/star.png">
-                            <img src="../src/view/img/star.png">
-                            <img src="../src/view/img/star.png">
+                            <img src="../src/view/img/icons/Star.png">
+                            <img src="../src/view/img/icons/Star.png">
+                            <img src="../src/view/img/icons/Star.png">
+                            <img src="../src/view/img/icons/Star.png">
+                            <img src="../src/view/img/icons/Star.png">
                         </div>
                         <div class="depoimento">
                             “Muito prático, encontro de tudo o que preciso! Sem contar nas grandes amizadesvque eu fiz!”
@@ -72,14 +72,14 @@
                 </div>
 
                 <div class="cards">
-                    <img src="../src/view/img/avatar/lucia.png">
+                    <img src="../src/view/img/avatar/Lucia.png">
                     <div class="row">
                         <div class="estrela">
-                            <img src="../src/view/img/star.png">
-                            <img src="../src/view/img/star.png">
-                            <img src="../src/view/img/star.png">
-                            <img src="../src/view/img/star.png">
-                            <img src="../src/view/img/star.png">
+                            <img src="../src/view/img/icons/Star.png">
+                            <img src="../src/view/img/icons/Star.png">
+                            <img src="../src/view/img/icons/Star.png">
+                            <img src="../src/view/img/icons/Star.png">
+                            <img src="../src/view/img/icons/Star.png">
                         </div>
                         <div class="depoimento">
                             “Depois que começamos usar o Vizinholine, nosso condominio ficou mais unido, as pessoas
@@ -89,14 +89,14 @@
                 </div>
 
                 <div class="cards">
-                    <img src="../src/view/img/avatar/fernando.png">
+                    <img src="../src/view/img/avatar/Fernando.png">
                     <div class="row">
                         <div class="estrela">
-                            <img src="../src/view/img/star.png">
-                            <img src="../src/view/img/star.png">
-                            <img src="../src/view/img/star.png">
-                            <img src="../src/view/img/star.png">
-                            <img src="../src/view/img/star.png">
+                            <img src="../src/view/img/icons/Star.png">
+                            <img src="../src/view/img/icons/Star.png">
+                            <img src="../src/view/img/icons/Star.png">
+                            <img src="../src/view/img/icons/Star.png">
+                            <img src="../src/view/img/icons/Star.png">
                         </div>
                         <div class="depoimento">
                             “Nunca mais comparei coisas que sei que usarei poucas vezes! E não tenho problema em

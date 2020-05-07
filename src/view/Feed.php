@@ -33,7 +33,7 @@
                             <div class="info_usuario_publicacao container row">
                                 <div class="col-md-4 perfil">
                                     <a href="#">
-                                        <img src="img/perfil1.png" alt="perfil usuario logado"
+                                        <img src="./img/avatar/Fernando.png" alt="perfil usuario logado"
                                             title="perfil usuario logado" />
                                     </a>
                                 </div>
@@ -50,7 +50,8 @@
                             <div class="acoes_nova_publicacao container row">
                                 <div class="col-md-6">
                                     <a href="#">
-                                        <img src="img/camera.png" alt="Escolha uma imagem" title="Escolha uma imagem" />
+                                        <img src="img/icons/camera.png" alt="Escolha uma imagem"
+                                            title="Escolha uma imagem" />
                                     </a>
                                 </div>
                                 <div class="col-md-6">
@@ -73,7 +74,7 @@
                                 <div class="info_usuario container row">
                                     <div class="col-md-4 perfil">
                                         <a href="#">
-                                            <img src="img/perfil2.png" alt="perfil usuario da publicacao"
+                                            <img src="./img/avatar/Marcelo.png" alt="perfil usuario da publicacao"
                                                 title="perfil usuario da publicacao" />
                                         </a>
                                     </div>
@@ -83,13 +84,13 @@
                                         <div class="opcoes_usuario_avaliacao">
                                             <ul>
                                                 <li> <a href="#">
-                                                        <img src="img/star_amarela.png" alt="avaliacao"
+                                                        <img src="img/icons/star_amarela.png" alt="avaliacao"
                                                             title="avaliacao" />
                                                     </a>
                                                     <p>4.5</p>
                                                 </li>
                                                 <li> <a href="#">
-                                                        <img src="img/hands.png" alt="publicacoes"
+                                                        <img src="img/icons/hands.png" alt="publicacoes"
                                                             title="publicacoes" />
                                                     </a>
                                                     <p>25</p>
@@ -101,24 +102,25 @@
                                 <div class="detalhe_item ">
                                     <!-- Detalhe do item publicado -->
                                     <a href="#">
-                                        <img src="img/ferramenta1.png" alt="imagem item publicado"
+                                        <img src="img/itens/ferramenta1.png" alt="imagem item publicado"
                                             title="imagem item publicado" />
                                     </a>
                                     <h3>Ferramentas?? Eu tenho!</h3>
                                     <div class="acoes_detalhe_item container row">
                                         <div class="col-md-4">
                                             <a href="#">
-                                                <img src="img/favorite3.png" alt="favorito" title="favorito" />
+                                                <img src="img/icons/favorite3.png" alt="favorito" title="favorito" />
                                             </a>
                                         </div>
                                         <div class="col-md-4">
                                             <a href="#">
-                                                <img src="img/messagem.png" alt="message" title="message" />
+                                                <img src="img/icons/messagem.png" alt="message" title="message" />
                                             </a>
                                         </div>
                                         <div class="col-md-4">
                                             <a href="#">
-                                                <img src="img/share2.svg" alt="compartilhar" title="compartilhar" />
+                                                <img src="img/icons/share2.svg" alt="compartilhar"
+                                                    title="compartilhar" />
                                             </a>
                                         </div>
                                     </div>
@@ -133,7 +135,7 @@
                                 <div class="info_usuario container row">
                                     <div class="col-md-4 perfil">
                                         <a href="#">
-                                            <img src="img/perfil1.png" alt="perfil usuario da publicacao"
+                                            <img src="img/avatar/Fernando.png" alt="perfil usuario da publicacao"
                                                 title="perfil usuario da publicacao" />
                                         </a>
                                     </div>
@@ -143,13 +145,13 @@
                                         <div class="opcoes_usuario_avaliacao">
                                             <ul>
                                                 <li> <a href="#">
-                                                        <img src="img/star_amarela.png" alt="avaliacao"
+                                                        <img src="img/icons/star_amarela.png" alt="avaliacao"
                                                             title="avaliacao" />
                                                     </a>
                                                     <p>4.8</p>
                                                 </li>
                                                 <li> <a href="#">
-                                                        <img src="img/hands.png" alt="publicacoes"
+                                                        <img src="img/icons/hands.png" alt="publicacoes"
                                                             title="publicacoes" />
                                                     </a>
                                                     <p>30</p>
@@ -170,17 +172,18 @@
                                     <div class="acoes_detalhe_item container row">
                                         <div class="col-md-4">
                                             <a href="#">
-                                                <img src="img/favorite3.png" alt="favorito" title="favorito" />
+                                                <img src="img/icons/favorite3.png" alt="favorito" title="favorito" />
                                             </a>
                                         </div>
                                         <div class="col-md-4">
                                             <a href="#">
-                                                <img src="img/messagem.png" alt="message" title="message" />
+                                                <img src="img/icons/messagem.png" alt="message" title="message" />
                                             </a>
                                         </div>
                                         <div class="col-md-4">
                                             <a href="#">
-                                                <img src="img/share2.svg" alt="compartilhar" title="compartilhar" />
+                                                <img src="img/icons/share2.svg" alt="compartilhar"
+                                                    title="compartilhar" />
                                             </a>
                                         </div>
                                     </div>
@@ -188,7 +191,7 @@
                                     <div class="info_usuario_resposta container d-flex justify-content-end">
                                         <div class="col-md-4 perfil">
                                             <a href="#">
-                                                <img src="img/perfil3.png" alt="perfil usuario resposta"
+                                                <img src="./img/avatar/Lucia.png" alt="perfil usuario resposta"
                                                     title="perfil usuario resposta" />
                                             </a>
                                         </div>
@@ -211,7 +214,7 @@
                                 <div class="info_usuario container row">
                                     <div class="col-md-4 perfil">
                                         <a href="#">
-                                            <img src="img/perfil3.png" alt="perfil usuario da publicacao"
+                                            <img src="./img/avatar/Lucia.png" alt="perfil usuario da publicacao"
                                                 title="perfil usuario da publicacao" />
                                         </a>
                                     </div>
@@ -221,13 +224,13 @@
                                         <div class="opcoes_usuario_avaliacao">
                                             <ul>
                                                 <li> <a href="#">
-                                                        <img src="img/star_amarela.png" alt="avaliacao"
+                                                        <img src="img/icons/star_amarela.png" alt="avaliacao"
                                                             title="avaliacao" />
                                                     </a>
                                                     <p>4.7</p>
                                                 </li>
                                                 <li> <a href="#">
-                                                        <img src="img/hands.png" alt="publicacoes"
+                                                        <img src="img/icons/hands.png" alt="publicacoes"
                                                             title="publicacoes" />
                                                     </a>
                                                     <p>26</p>
@@ -239,7 +242,7 @@
                                 <div class="detalhe_item ">
                                     <!-- Detalhe do item publicado -->
                                     <a href="#">
-                                        <img src="img/ferramenta2.png" alt="imagem item publicado"
+                                        <img src="img/itens/ferramenta2.png" alt="imagem item publicado"
                                             title="imagem item publicado" />
                                     </a>
                                     <h3>Empresto essa bolsa linda, otima
@@ -247,17 +250,18 @@
                                     <div class="acoes_detalhe_item container row">
                                         <div class="col-md-4">
                                             <a href="#">
-                                                <img src="img/favorite3.png" alt="favorito" title="favorito" />
+                                                <img src="img/icons/favorite3.png" alt="favorito" title="favorito" />
                                             </a>
                                         </div>
                                         <div class="col-md-4">
                                             <a href="#">
-                                                <img src="img/messagem.png" alt="message" title="message" />
+                                                <img src="img/icons/messagem.png" alt="message" title="message" />
                                             </a>
                                         </div>
                                         <div class="col-md-4">
                                             <a href="#">
-                                                <img src="img/share2.svg" alt="compartilhar" title="compartilhar" />
+                                                <img src="img/icons/share2.svg" alt="compartilhar"
+                                                    title="compartilhar" />
                                             </a>
                                         </div>
                                     </div>

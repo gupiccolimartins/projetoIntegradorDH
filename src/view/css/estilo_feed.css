@@ -15,7 +15,6 @@ textarea {
   width: 100%;
   /* background-color: rgba(196, 196, 196, 0.25); */
   background: white;
-  background-color: white;
   margin: 10px 0 0 0;
 }
 
@@ -136,7 +135,7 @@ h2 {
   text-align: left;
 }
 
-.card-body .info_usuario_publicacao .nova_publicacao a img {
+.card-body .info_usuario_publicacao a img {
   height: 100px;
   text-align: left;
   border-radius: 50%;
