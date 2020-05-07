@@ -136,19 +136,20 @@
                                     <div class=col-10>
                                         <label for="usuario">Usuário</label><br>
                                         <input type="text" class=" form-control form-control-lg" name="usuario"
-                                            id="usuario" value="">
+                                            id="usuario" value="test">
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <div class=col-10>
                                         <label for="senha">Senha</label>
                                         <input type="password" class="form-control form-control-lg" name="senha"
-                                            id="senha" value="">
+                                            id="senha" value="test">
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-5">
-                                        <button type="button" class="btn btn-secondary btn-lg btn-block">Entrar</button>
+                                        <button type="button" class="btn btn-secondary btn-lg btn-block"
+                                            onclick="window.location.href='../src/view/Feed.php'">Entrar</button>
                                     </div>
                                     <div class="col-5">
                                         <button type="button"
