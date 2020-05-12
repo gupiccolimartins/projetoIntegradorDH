@@ -159,7 +159,7 @@ form {
   font-family: "Josefin Sans", sans-serif;
   width: 450px; 
   height: 150px; 
-  left: 50%; 
+  left: 47%; 
   margin: -130px 0 0 -210px; 
   padding: 10px;
   position: absolute; 
@@ -185,11 +185,11 @@ input {
 }
 
 .img_upload {
-  font-size: 16px;
+font-size: 16px;
 position: absolute;
 width: 50px;
 height: 100px;
-left: 161px;
+left: 120px;
 top: 400px;
 }
 
