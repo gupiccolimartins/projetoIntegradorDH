@@ -26,6 +26,11 @@ body {
 }
 .user_data h1,
 h2 {
+  display: block;
+  font-family: "Josefin Sans", sans-serif;
+  color: #a60356;
+  padding-top: 25px;
+  padding-bottom: 25px;
   text-align: center;
 }
 
