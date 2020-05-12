@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!doctype html>
 <html lang="en">
 
@@ -117,3 +118,8 @@
 </body>
 
 </html>
+=======
+<?php
+require('Home.php');
+?>
+>>>>>>> homologacao
