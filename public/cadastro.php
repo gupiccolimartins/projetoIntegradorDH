@@ -26,10 +26,10 @@
        
 <main>
 
+
 <style type="text/css">
         * { margin: 0; padding: 0;}
         #divCenter { 
-                background-color: #f8f9fa; 
                 width: 400px; 
                 height: 150px; 
                 left: 50%; 
@@ -43,15 +43,26 @@
     <div id="divCenter">
         <form id="frmPost" action="">
     <form method="get" action="envio_dados.php">
-        <input type="text" name="nome" placeholder="Nome Completo"><hr/> <br/> 
+        <input type="text" name="nome" placeholder="Nome Completo"><hr/> <br/>     
+        
+        
+       
+
+        <input type="text" name="cpf" placeholder="CPF" onkeydown="javascript: fMasc( this, mCPF );"><hr/> <br/> 
+        <input type="text" name="telefone" placeholder="Telefone" onkeydown="javascript: fMasc( this, mTel );"><hr/> <br/> 
+       
         <input type="e-mail" name="email" placeholder="Seu e-mail"><hr/> <br/> 
-        <input type="number" name="cpf" placeholder="CPF"><hr/> <br/> 
-        <input type="number" name="ap" placeholder="Apartamento"><hr/>
-        <input type="number" name="bloco" placeholder="Bloco"><hr/> <br/> 
-        <input type="number" name="intefone" placeholder="Interfone"><hr/>
-        <input type="tel" name="telefone" placeholder="Telefone"><hr/> <br/> 
+
+        <input type="text" name="ap" placeholder="Apartamento"><hr/>
+        <input type="text" name="bloco" placeholder="Bloco"><hr/> <br/> 
+        <input type="text" name="intefone" placeholder="Interfone"><hr/>
+
         <input type="file" name="foto" placeholder="Sua foto"><hr/> <br/> 
+ 
+        
         <input type="submit" name="Cadastrar" value="Cadastrar">    
+
+
 </form>
 
     </main>
