@@ -12,6 +12,8 @@
                 <li><a href="../../public/index.php">Home</a></li>
                 <li><a href="../view/Feed.php">Feed</a></li>
                 <li><a href="../view/CadastroItem.php">Cadastro Items</a></li>
+                <li><a href="../view/PerfilUsuario.php">Perfil Usuario</a></li>
+                <li><a href="../view/PerfilVizinho.php">Perfil Vizinho</a></li>
                 <li><a href="#">Quem Somos</a></li>
                 <li><a href="#">Contato</a></li>
             </ul>
