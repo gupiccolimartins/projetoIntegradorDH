@@ -44,17 +44,14 @@
 
 
                                     <div>
-                                        <div>
+                                        <div class="campo1">
                                             <input type="text" name="ap" placeholder="Apartamento">
-                                         </div>
-                                        <div class="campo">
                                             <input type="text" name="bloco" placeholder="Bloco">
                                             <hr /> <br />
                                         </div>
                                         <input type="text" name="interfone" placeholder="Interfone">
                                         <hr />
 
-                                    </div>
 
 
                                     <input type="file" name="foto" placeholder="Sua foto">
