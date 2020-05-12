@@ -1,3 +1,3 @@
 <?php
-require_once('./home.php');
+require_once('../src/view/Home.php');
 ?>

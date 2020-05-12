@@ -9,7 +9,7 @@
         <nav>
 
             <ul>
-                <li><a href="../../public/index.php">Home</a></li>
+                <li><a href="../view/Home.php">Home</a></li>
                 <li><a href="../view/Feed.php">Feed</a></li>
                 <li><a href="../view/CadastroItem.php">Cadastro Items</a></li>
                 <li><a href="#">Quem Somos</a></li>

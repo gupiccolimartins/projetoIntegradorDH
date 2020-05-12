@@ -1,4 +1,6 @@
 /* Geral Inicio*/
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap");
+
 body,
 p,
 h1,
@@ -83,8 +85,8 @@ h2 {
 }
 .div_feed_items p {
   text-align: center;
-  font-size: 20px;
-  line-height: 20px;
+  font-size: 16px;
+  line-height: 10px;
 }
 
 /* seccao do usuario na publicaco - Inicio */
@@ -97,7 +99,7 @@ h2 {
 }
 .card-body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border: 1px solid #c4c4c4;
+
   box-sizing: border-box;
   border-radius: 10px;
 }
@@ -105,7 +107,7 @@ h2 {
   text-align: left;
 }
 .card-body .info_usuario .perfil a img {
-  height: 150px;
+  height: 80px;
   text-align: left;
   border-radius: 50%;
   margin-bottom: 10px;
@@ -119,7 +121,7 @@ h2 {
   font-family: Josefin Sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 25px;
+  font-size: 20px;
   line-height: 25px;
   text-align: left;
 }
@@ -152,6 +154,11 @@ h2 {
   margin: 10px;
   padding-top: 10px;
 }
+
+.card-body .acoes_nova_publicacao a img {
+  width: 30px;
+}
+
 /* CSS do div da resposta a uma publiccacao */
 
 .info_usuario_resposta {
@@ -183,16 +190,16 @@ h2 {
   font-family: Josefin Sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 36px;
-  line-height: 36px;
+  font-size: 24px;
+  line-height: 10px;
 }
 .opcoes_usuario p {
-  margin-top: 5px;
+  margin-top: 1px;
   margin-bottom: 0;
   font-family: Josefin Sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 25px;
+  font-size: 20px;
   line-height: 25px;
   text-align: left;
 }
@@ -203,7 +210,7 @@ h2 {
   text-align: center;
 }
 .opcoes_usuario_avaliacao ul li a img {
-  height: 35px;
+  height: 20px;
 }
 
 .opcoes_usuario_avaliacao ul li p {
@@ -235,9 +242,9 @@ h2 {
   font-family: Josefin Sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 36px;
-  line-height: 36px;
-  margin: 25px;
+  font-size: 16px;
+  line-height: 10px;
+  margin: 20px;
 }
 
 .detalhe_item h5 {
@@ -246,7 +253,7 @@ h2 {
   font-family: Josefin Sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 25px;
+  font-size: 15px;
   line-height: 25px;
   margin: 0 25px 0 25px;
 }
@@ -256,8 +263,17 @@ h2 {
 }
 
 .acoes_detalhe_item a img {
-  width: 40px;
+  width: 22px;
   margin-left: auto;
   margin-right: auto;
 }
 /* Opcoes do item Fim */
+
+h2 {
+  display: block;
+  font-family: "Josefin Sans", sans-serif;
+  color: #a60356;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+}

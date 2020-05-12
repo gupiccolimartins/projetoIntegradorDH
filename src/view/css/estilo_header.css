@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap");
+
 .section_header div {
   background: rgba(196, 196, 196, 0.25);
   text-align: right;
@@ -16,9 +18,9 @@
 .section_header nav ul li a {
   text-decoration: none;
   color: #a60356;
-  font-family: helvetica, arial;
-  font-size: 1.3em;
-  padding: 20px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  padding: 10px;
 }
 
 .section_header nav ul li:hover {
