@@ -156,6 +156,7 @@ form {
   font-size: 20px;
 }
 .cadastro {
+  font-family: "Josefin Sans", sans-serif;
   width: 400px; 
   height: 150px; 
   left: 50%; 
@@ -163,6 +164,3 @@ form {
   padding:10px;
   position: absolute; 
   top: 50%; }
-
-
-
