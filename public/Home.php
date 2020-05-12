@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="stylesheet" href="../src/view/css/estilo.css">
     <title>Home - Vizinho online</title>
 </head>
 
@@ -26,7 +26,7 @@
         </div>
         <div class="row">
             <div class="banner">
-                <img src="./img/banner/1.png" alt="banner ">
+                <img src="../src/view/img/banner/1.png" alt="banner ">
             </div>
         </div>
         <div class="row">
@@ -56,14 +56,14 @@
                 <div class="col-2">
                 </div>
                 <div class="cards">
-                    <img src="./img/avatar/Marcelo.png">
+                    <img src="../src/view/img/avatar/Marcelo.png">
                     <div class="row">
                         <div class="estrela">
-                            <img src="./img/icons/Star.png">
-                            <img src="./img/icons/Star.png">
-                            <img src="./img/icons/Star.png">
-                            <img src="./img/icons/Star.png">
-                            <img src="./img/icons/Star.png">
+                            <img src="../src/view/img/icons/Star.png">
+                            <img src="../src/view/img/icons/Star.png">
+                            <img src="../src/view/img/icons/Star.png">
+                            <img src="../src/view/img/icons/Star.png">
+                            <img src="../src/view/img/icons/Star.png">
                         </div>
                         <div class="depoimento">
                             “Muito prático, encontro de tudo o que preciso! Sem contar nas grandes amizadesvque eu fiz!”
@@ -72,14 +72,14 @@
                 </div>
 
                 <div class="cards">
-                    <img src="./img/avatar/Lucia.png">
+                    <img src="../src/view/img/avatar/Lucia.png">
                     <div class="row">
                         <div class="estrela">
-                            <img src="./img/icons/Star.png">
-                            <img src="./img/icons/Star.png">
-                            <img src="./img/icons/Star.png">
-                            <img src="./img/icons/Star.png">
-                            <img src="./img/icons/Star.png">
+                            <img src="../src/view/img/icons/Star.png">
+                            <img src="../src/view/img/icons/Star.png">
+                            <img src="../src/view/img/icons/Star.png">
+                            <img src="../src/view/img/icons/Star.png">
+                            <img src="../src/view/img/icons/Star.png">
                         </div>
                         <div class="depoimento">
                             “Depois que começamos usar o Vizinholine, nosso condominio ficou mais unido, as pessoas
@@ -89,14 +89,14 @@
                 </div>
 
                 <div class="cards">
-                    <img src="./img/avatar/Fernando.png">
+                    <img src="../src/view/img/avatar/Fernando.png">
                     <div class="row">
                         <div class="estrela">
-                            <img src="./img/icons/Star.png">
-                            <img src="./img/icons/Star.png">
-                            <img src="./img/icons/Star.png">
-                            <img src="./img/icons/Star.png">
-                            <img src="./img/icons/Star.png">
+                            <img src="../src/view/img/icons/Star.png">
+                            <img src="../src/view/img/icons/Star.png">
+                            <img src="../src/view/img/icons/Star.png">
+                            <img src="../src/view/img/icons/Star.png">
+                            <img src="../src/view/img/icons/Star.png">
                         </div>
                         <div class="depoimento">
                             “Nunca mais comparei coisas que sei que usarei poucas vezes! E não tenho problema em
@@ -149,7 +149,7 @@
                                 <div class="row">
                                     <div class="col-5">
                                         <button type="button" class="btn btn-secondary btn-lg btn-block"
-                                            onclick="window.location.href='./Feed.php'">Entrar</button>
+                                            onclick="window.location.href='../src/view/Feed.php'">Entrar</button>
                                     </div>
                                     <div class="col-5">
                                         <button type="button"
