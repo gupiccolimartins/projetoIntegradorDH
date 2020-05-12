@@ -5,12 +5,15 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/deb957d17d.js" crossorigin="anonymous"></script>
 
 
-    <title>VizinhOnline</title>
+    <title>Hello, world!</title>
 </head>
 
 <body>
@@ -18,8 +21,8 @@
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #A60356;">
         <a class="navbar-left" href="/">
 
-            <img src="logo.png" alt="Logo" style="width: 50px; height: 50px;">
-            
+            <img src="../src/img/logo.png" alt="Logo" style="width: 50px; height: 50px;">
+
         </a>
         <div class="container">
             <ul class="row navbar-nav" style="flex-grow: 1;">
@@ -35,6 +38,68 @@
             </ul>
         </div>
     </nav>
+
+    <div class="container">
+        <div class="row profile">
+            <div class="col-md-3">
+                <div class="profile-sidebar">
+                    <div class="profile-userpic">
+                        <a href="#">
+                            <img src="../src/img/perfil.png" alt="perfil" , title="perfil" class="perfil" />
+                        </a>
+
+                    </div>
+                    <h1>Usuario Nome</h1>
+                    <p>Lorem Ipsum</p>
+
+                    <ul>
+                        <li>
+                            <h4>
+                                <i class="fas fa-user-circle"></i>
+                                Marcelo souza
+                            </h4>
+                        </li>
+                        <li>
+                            <h4>
+                                <i class="far fa-envelope"></i>
+                                f_souza@gmail.com
+                            </h4>
+                        </li>
+                        <li>
+                            <h4>
+                                <i class="far fa-building"></i>
+                                Apto 12 Bloco20
+                            </h4>
+                        </li>
+                        <li>
+                            <h4>
+                                <i class="fas fa-mobile-alt"></i>
+                                (XX)XXXXX-XXXX
+                            </h4>
+                        </li>
+                        <li>
+                            <h4>
+                                <i class="fas fa-users"></i>
+                                Meus vizinhos
+                            </h4>
+                        </li>
+                        <li>
+                            <h4>
+                                <i class="fas fa-users-cog"></i>
+                                Configurações
+                            </h4>
+                        </li>
+                        <li>
+                            <h4>
+                                <i class="fas fa-sign-out-alt"></i>
+                                Sair
+                            </h4>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
