@@ -6,8 +6,7 @@ Asi funciona como exemplo de ter todos os estilos em um solo arquivo CSS -->
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
 <section class="user_data">
-    <h1>Dados do Usuario</h1>
-    <p>Lorem Ipsum</p>
+    <h2>Nome Usuario</h2>
     <a href="#">
         <img src="./img/avatar/Fernando.png" alt="perfil" , title="perfil" class="perfil" />
     </a>

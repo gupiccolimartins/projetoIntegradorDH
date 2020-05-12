@@ -28,11 +28,11 @@
                     <!-- Section dos feeds -->
                     <!-- Aqui vem meu codigo - tem que utilizar bootstrap -->
                     <section class="div_feed_items">
-                        <h1> Comece a compartilhar! </h1>
+                        <h2> Comece a compartilhar! </h2>
                         <div class="container">
                             <div class="col-md-9 mb-md-0 mb-5">
                                 <form action="PHP/file.php" mothod="POST" enctype="multipart/form-data">
-                                    <h1><small>clique na imagem para iniciar</small></h1>
+                                    <h3><small>clique na imagem para iniciar</small></h3>
                                     <div class="avatar-upload">
                                         <div class="avatar-edit">
                                             <input type='file' id="imageUpload" accept=".png, .jpg, .jpeg" />
