@@ -29,17 +29,18 @@
                     <!-- Aqui vem meu codigo - tem que utilizar bootstrap -->
                     <section class="div_feed_items">
                         <h2> Comece a compartilhar! </h2>
+                        <p>Clique na imagem para iniciar</p>
                         <div class="container">
-                            <div class="col-md-9 mb-md-0 mb-5">
+                            <div class="col-md-9 ml-5">
                                 <form action="PHP/file.php" mothod="POST" enctype="multipart/form-data">
-                                    <h3><small>clique na imagem para iniciar</small></h3>
+
                                     <div class="avatar-upload">
                                         <div class="avatar-edit">
                                             <input type='file' id="imageUpload" accept=".png, .jpg, .jpeg" />
                                             <label for="imageUpload"></label>
                                         </div>
                                         <div class="avatar-preview">
-                                            <div id="imagePreview" style="background-image: url(img/itens/pesca.PNG);">
+                                            <div id="imagePreview" style="background-image: url(./img/itens/add.png);">
                                             </div>
                                         </div>
                                     </div>
@@ -66,38 +67,38 @@
                             <div class="row">
                                 <!--Grid column-->
                                 <div class="col-md-12">
-                                    <div class="md-form mb-0">
-                                        <input type="text" id="name" name="name" class="form-control">
-                                        <label for="name" class="">nome do item</label>
-                                    </div>
+                                    
+                                <input type="text" id="name" name="name" class="input" placeholder="Nome do item">
+                                        <!-- <label for="name" class="label">Nome do item</label> -->
+                                    
                                 </div>
                             </div>
-
+                            <br>
                             <div class="row">
                                 <!--Grid column-->
                                 <div class="col-md-12">
                                     <div class="md-form mb-0">
-                                        <textarea type="text" id="message" name="message" rows="12"
-                                            class="form-control md-textarea"></textarea>
-                                        <label for="message">Insidra a descrição do item</label>
+                                    <textarea type="text" id="message" name="message" rows="6" placeholder="Descrição do item"
+                                            class="form-control sm-textarea"></textarea>
+                                        <!-- <label for="message">Insira a descrição do item</label> -->
                                     </div>
                                 </div>
                             </div>
-
+                            <br>
                             <div class="row">
                                 <!--Grid column-->
                                 <div class="col-md-12">
-                                    <div class="md-form mb-0">
-                                        <input type="text" id="dataDisp" name="dataDisp" class="form-control">
-                                        <label for="dataDisp" class="">Item disponivel em</label>
+                                <div class="input-container">
+                                        <input type="text" id="name" name="name" class="input" placeholder="Item disponivel em">
+                                        <!-- <label for="dataDisp" class="">Item disponivel em</label> -->
                                     </div>
                                 </div>
                             </div>
-
+                            <br>
                             <!-- envia os dados -->
                             <div class="text-center text-md-left">
-                                <a class="btn btn-primary"
-                                    onclick="document.getElementById('contact-form').submit();">Send</a>
+                                <a class="btn btn-secondary text-white"
+                                    onclick="document.getElementById('contact-form').submit();">Enviar</a>
                             </div>
                             </form>
 
