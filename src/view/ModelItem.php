@@ -9,7 +9,7 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   
 <div>
-<button type="button" class="btn btn-secondary btn-sm" data-toggle="modal" data-target="#myModal">Detalhes do Item</button>
+<button type="button" class="btn btn-invisible" data-toggle="modal" data-target="#myModal">Detalhes do Item</button>
   <!-- The Modal -->
     <div class="modal" id="myModal" tabindex="-1" role="dialog"> 
         <div class="modal-dialog modal-lg" role="document">

@@ -6,8 +6,7 @@
     <title>Cadastro de Itens</title>
     <link href="./css/estilo_CadItemMod.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> 
 </head>
 
 
@@ -24,71 +23,19 @@
                     <!-- Including the left panel with the UserData -->
                     <?php include('./UserData.php');?>
                 </div>
+ <!-- Carrega form cadastro dos itens. -->
                 <div class="container col-md-8">
-                    <!-- Section dos feeds -->
-                    <!-- Aqui vem meu codigo - tem que utilizar bootstrap -->
-                    <section class="div_feed_items">
-                        <h2> Comece a compartilhar! </h2>
-                        <div class="container">
-                            <div class="col-md-9 mb-md-0 mb-5">
-                                <form action="PHP/file.php" mothod="POST" enctype="multipart/form-data">
-                                    <h3><small>clique na imagem para iniciar</small></h3>
-                                    <div class="avatar-upload">
-                                        <div class="avatar-edit">
-                                            <input type='file' id="imageUpload" accept=".png, .jpg, .jpeg" />
-                                            <label for="imageUpload"></label>
-                                        </div>
-                                        <div class="avatar-preview">
-                                            <div id="imagePreview" style="background-image: url(img/itens/pesca.PNG);">
-                                            </div>
-                                        </div>
-                                    </div>
-                            </div>
+                    <h2 style="text-align:left;"> Cadastro de itens </h2>
+                    <?php include('./itemData.php'); ?>
+                </div>
 
-                            <script src="../js/rendered-js.js"></script>
-                            <!-- Inserir java script para atualizar imagem da tela -->
-                            <div class="row">
-                                <!--Grid column-->
-                                <div class="col-md-12">
-                                    <div class="md-form mb-0">
-                                        <input type="text" id="name" name="name" class="form-control">
-                                        <label for="name" class="">nome do item</label>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <!--Grid column-->
-                                <div class="col-md-12">
-                                    <div class="md-form mb-0">
-                                        <textarea type="text" id="message" name="message" rows="12"
-                                            class="form-control md-textarea"></textarea>
-                                        <label for="message">Insidra a descrição do item</label>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <!--Grid column-->
-                                <div class="col-md-12">
-                                    <div class="md-form mb-0">
-                                        <input type="text" id="dataDisp" name="dataDisp" class="form-control">
-                                        <label for="dataDisp" class="">Item disponivel em</label>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- envia os dados -->
-                            <div class="text-center text-md-left">
-                                <a class="btn btn-primary"
-                                    onclick="document.getElementById('contact-form').submit();">Send</a>
-                            </div>
-                            </form>
-            
+                <!-- carrega detalhe dos itens -->
                             <section>
-<!-- carrega detalhe dos itens -->
                             <?php include('./DetalheDoItem.php'); ?>
                             </section>
+            </div>
+        </div>
+        
     </main>
 <!-- Including the footer -->
     <div>
