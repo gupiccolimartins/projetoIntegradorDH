@@ -4,8 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cadastro de Itens</title>
-    <link href="./css/estilo_CadItemMod.css
-    " rel="stylesheet" type="text/css" />
+    <link href="./css/estilo_CadItemMod.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
@@ -100,10 +99,11 @@
                                     onclick="document.getElementById('contact-form').submit();">Send</a>
                             </div>
                             </form>
-
-
-                            <div class="container">
-                                <div class="row">
+            
+<section>
+                            <!-- <div class="container"> -->
+                            <?php include('./DetalheDoItem.php'); ?>
+                                <!-- <div class="row">
                                     <div class="col">
                                         <article class="article_items">
                                             <a href="#">
@@ -151,8 +151,9 @@
                                             </a>
                                             <p>Mala</p>
                                     </div>
-                                </div>
-                            </div>
+                                </div> -->
+                            <!-- </div> -->
+                            </section>
 
 
     </main>

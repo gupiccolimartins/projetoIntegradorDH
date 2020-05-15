@@ -1,5 +1,6 @@
 /* CSS do main */
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap");
+
 body {
   margin: 0;
   background: white;
@@ -109,7 +110,7 @@ h2 {
   border-radius: 10px 10px 0px 0px;
 
   width: 280px;
-  height: 160px;
+  height: 180px;
   /* padding: 50px; */
   margin-right: auto;
   margin-left: auto;
@@ -213,4 +214,13 @@ label {
   width: 100%;
   height: 50px;
   font-size: 1rem;
+}
+
+.modal-backdrop.in {
+  opacity: 0.9;
+}
+
+table, th, td {
+  text-align: center;
+  vertical-align: middle;
 }
