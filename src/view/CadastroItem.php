@@ -7,6 +7,7 @@
     <link href="./css/estilo_CadItemMod.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        
 </head>
 
 
@@ -43,25 +44,9 @@
                                         </div>
                                     </div>
                             </div>
-                            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+                            <script src="../js/rendered-js.js"></script>
                             <!-- Inserir java script para atualizar imagem da tela -->
-                            <script id="rendered-js">
-                            function readURL(input) {
-                                if (input.files && input.files[0]) {
-                                    var reader = new FileReader();
-                                    reader.onload = function(e) {
-                                        $('#imagePreview').css('background-image', 'url(' + e.target.result + ')');
-                                        $('#imagePreview').hide();
-                                        $('#imagePreview').fadeIn(650);
-                                    };
-                                    reader.readAsDataURL(input.files[0]);
-                                }
-                            }
-                            $("#imageUpload").change(function() {
-                                readURL(this);
-                            });
-                            //# sourceURL=pen.js
-                            </script>
                             <div class="row">
                                 <!--Grid column-->
                                 <div class="col-md-12">
@@ -100,64 +85,12 @@
                             </div>
                             </form>
             
-<section>
-                            <!-- <div class="container"> -->
+                            <section>
+<!-- carrega detalhe dos itens -->
                             <?php include('./DetalheDoItem.php'); ?>
-                                <!-- <div class="row">
-                                    <div class="col">
-                                        <article class="article_items">
-                                            <a href="#">
-                                                <img src="img/itens/furadeira.png" alt="item" title="item" />
-                                            </a>
-                                            <p>Furadeira</p>
-                                    </div>
-                                    <div class="col">
-                                        <article class="article_items">
-                                            <a href="#">
-                                                <img src="img/itens/muffin.png" alt="item" title="item" />
-                                            </a>
-                                            <p>Muffin</p>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col">
-                                        <article class="article_items">
-                                            <a href="#">
-                                                <img src="img/itens/pesca.png" alt="item" title="item" />
-                                            </a>
-                                            <p>Pesca</p>
-                                    </div>
-                                    <div class="col">
-                                        <article class="article_items">
-                                            <a href="#">
-                                                <img src="img/itens/mergulho.png" alt="item" title="item" />
-                                            </a>
-                                            <p>Mergulho</p>
-                                    </div>
-                                </div>
-
-                                <div class="row">
-                                    <div class="col">
-                                        <article class="article_items">
-                                            <a href="#">
-                                                <img src="img/itens/guardasol.png" alt="item" title="item" />
-                                            </a>
-                                            <p>guarda sol</p>
-                                    </div>
-                                    <div class="col">
-                                        <article class="article_items">
-                                            <a href="#">
-                                                <img src="img/itens/mala.png" alt="item" title="item" />
-                                            </a>
-                                            <p>Mala</p>
-                                    </div>
-                                </div> -->
-                            <!-- </div> -->
                             </section>
-
-
     </main>
-    <!-- Including the footer -->
+<!-- Including the footer -->
     <div>
         <?php include('./Footer.php'); ?>
     </div>
@@ -169,6 +102,7 @@
         integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
     </script>
     <br>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 </body>
 
 </html>
