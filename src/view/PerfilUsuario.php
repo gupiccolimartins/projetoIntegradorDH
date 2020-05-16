@@ -4,9 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Perfil Usuario</title>
+    <!-- Styles -->
     <link href="./css/estilo_feed.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- JQuery and JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
 </head>
 
 <body>
@@ -28,7 +39,19 @@
                 <section class="div_feed_items col-md-10">
                     <!-- Texto inicial antes dos itens do Usuario -->
                     <h2> Meus Itens </h2>
-                    <!-- Itens do usuario sao listadas a partir daqui -->
+                    <!-- Include do DetalheItem -->
+                    <div class="row border-light">
+                        <div class="col-md-12">
+                            <div class="card  border-light">
+                                <div class="card-body">
+                                    <?php include('./itemData.php');?>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Itens do usuario sao listadas a partir daqui -->
+                <section class="div_feed_items col-md-10">
                     <!-- Vamos utilizar bootstrap cards e o estilo do feeds para ter menos mudanças -->
                     <div class="row border-light">
                         <div class="col-sm-6">
@@ -36,7 +59,7 @@
                                 <div class="card-body mb-3">
                                     <!-- Detalhe do item publicado -->
                                     <a href="#">
-                                        <img src="img/itens/furadeiraView.png" alt="Furadeira" title="Furadeira" />
+                                        <img src="img/itens/furadeira.png" alt="Furadeira" title="Furadeira" />
                                     </a>
                                     <h3>Furadeira</h3>
                                 </div>
@@ -47,10 +70,9 @@
                                 <div class="card-body mb-3">
                                     <!-- Detalhe do item publicado -->
                                     <a href="#">
-                                        <img src="img/itens/muffinView.png" alt="Forma muffin" title="Forma muffin" />
+                                        <img src="img/itens/muffin.png" alt="Forma muffin" title="Forma muffin" />
                                     </a>
                                     <h3>Forma muffin</h3>
-
                                 </div>
                             </div>
                         </div>
@@ -61,7 +83,7 @@
                                 <div class="card-body mb-3">
                                     <!-- Detalhe do item publicado -->
                                     <a href="#">
-                                        <img src="img/itens/guardasolView.png" alt="Cadeira e Guardasol"
+                                        <img src="img/itens/guardasol.png" alt="Cadeira e Guardasol"
                                             title="Cadeira e Guardasol" />
                                     </a>
                                     <h3>Cadeira e Guardasol</h3>
@@ -74,7 +96,7 @@
                                 <div class="card-body mb-3">
                                     <!-- Detalhe do item publicado -->
                                     <a href="#">
-                                        <img src="img/itens/malaView.png" alt="Mala de viagem" title="Mala de viagem" />
+                                        <img src="img/itens/mala.png" alt="Mala de viagem" title="Mala de viagem" />
                                     </a>
                                     <h3>Mala de viagem</h3>
                                 </div>
@@ -82,8 +104,43 @@
                         </div>
                     </div>
                 </section>
+                <!-- Mais Itens Collapsiveis -->
                 <section class="div_feed_items col-md-10">
-                    <h2>Ver Mais Itens</h2>
+                    <div class="border-light collapse_itens">
+                        <p>
+                            <a data-toggle="collapse" href="#collapseItems" role="button" aria-expanded="false"
+                                aria-controls="collapseItems">
+                                Mais Itens
+                            </a>
+                        </p>
+                        <div class="row collapse" id="collapseItems">
+                            <div class="row border-light">
+                                <div class="col-sm-6">
+                                    <div class="card text-center border-light">
+                                        <div class="card-body mb-4">
+                                            <!-- Detalhe do item publicado -->
+                                            <a href="#">
+                                                <img src="img/itens/furadeira.png" alt="Furadeira" title="Furadeira" />
+                                            </a>
+                                            <h3>Furadeira</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="card text-center border-light">
+                                        <div class="card-body mb-4">
+                                            <!-- Detalhe do item publicado -->
+                                            <a href="#">
+                                                <img src="img/itens/muffin.png" alt="Forma muffin"
+                                                    title="Forma muffin" />
+                                            </a>
+                                            <h3>Forma muffin</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </section>
             </div>
         </div>
@@ -92,6 +149,7 @@
     <div>
         <?php include('./Footer.php'); ?>
     </div>
+
 </body>
 
 </html>

@@ -61,7 +61,7 @@ h2 {
 /* Perfil Fim*/
 
 /* Estilo da secao dos items do Feed */
-.main .container .div_feed_items {
+.main .container .div_detalhe_items {
   flex-basis: calc(100% - 40px);
   border-radius: 10px;
   margin: 20px 0 20px 5px;
@@ -70,9 +70,9 @@ h2 {
   padding-bottom: 10px;
   box-sizing: border-box;
   border-radius: 10px;
-  text-align: center;
+  text-align: left;
 }
-.main .container .div_feed_items .article_items {
+.main .container .div_detalhe_items .article_items {
   flex-basis: calc(100% - 40px);
   max-width: 800px;
   left: 582px;
@@ -84,24 +84,51 @@ h2 {
   width: 226px;
 }
 
-.main .container .div_feed_items .article_items h2 {
+.main .container .div_detalhe_items .article_items h2 {
   height: 40px;
   text-align: center;
   background-color: azure;
 }
 
-.main .container .div_feed_items .article_items a img {
+.main .container .div_detalhe_items .article_items a img {
   width: 226px;
   height: 137px;
 }
 
-.main .container .div_feed_items p {
+.main .container .div_detalhe_items p {
   font-weight: lighter;
   text-align: center;
   margin-right: auto;
   margin-left: auto;
 }
+/* Imagem div */
 
+/* Ocultando o icone da camera */
+#camera_div {
+  display: none;
+}
+#camera_div a {
+  vertical-align: top;
+  border-style: none;
+  margin-bottom: 0px;
+  top: 10px;
+}
+#camera_div img {
+  width: 35px;
+  height: 35px;
+}
+#trash_div img {
+  width: 35px;
+  height: 35px;
+}
+#trash_div a {
+  vertical-align: bottom;
+  border-style: none;
+  margin-bottom: 0px;
+  width: 16px;
+  bottom: 0px;
+  position: absolute;
+}
 .article_items {
   /* border: 2px solid rgb(3, 9, 92); */
   /* position: relative; */
@@ -120,11 +147,11 @@ h2 {
 }
 
 .article_items_big a img {
-  width: 680px;
+  width: 450px;
   height: 400px;
 }
 
- .article_items_big {
+.article_items_big {
   /* border: 2px solid rgb(3, 9, 92); */
   /* position: relative; */
   background: #ffffff;
@@ -145,7 +172,6 @@ h2 {
 .avatar-upload {
   position: relative;
   max-width: 205px;
-  margin: 50px auto;
 }
 .avatar-upload .avatar-edit {
   position: absolute;
@@ -178,25 +204,23 @@ h2 {
   font-family: "FontAwesome";
   color: #757575;
   position: absolute;
-  top: 10px;
   left: 0;
   right: 0;
   text-align: center;
   margin: auto;
 }
 .avatar-upload .avatar-preview {
-  width: 220px;
+  width: 180px;
   height: 171px;
   position: relative;
-  border-radius: 10%;
-  border: 0px solid #f8f8f8;
+  border: 1px solid #cccccc;
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
 }
-.avatar-upload .avatar-preview > div {
+.avatar-upload .avatar-preview div {
   width: 100%;
   height: 100%;
   border-radius: 0%;
-  background-size: cover;
+  background-size: auto;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -220,11 +244,9 @@ label {
   top: 0;
   left: 0;
   right: 0;
-  border-bottom: 1px solid #616161;
   color: #616161;
   display: flex;
   align-items: center;
-  position: absolute;
   font-size: 1rem;
   cursor: text;
   transition: 0.2s ease-in-out;
@@ -233,8 +255,6 @@ label {
 
 input,
 label {
-  width: 100%;
-  height: 50px;
   font-size: 1rem;
 }
 
@@ -242,7 +262,9 @@ label {
   opacity: 0.9;
 }
 
-table, th, td {
+table,
+th,
+td {
   text-align: center;
   vertical-align: middle;
 }

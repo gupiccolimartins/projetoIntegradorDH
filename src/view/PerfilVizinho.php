@@ -27,7 +27,12 @@
                 <!-- Seccao de items -->
                 <section class="div_feed_items col-md-10">
                     <!-- Texto inicial antes dos itens do Usuario -->
-                    <h2> Todos os Itens</h2>
+                    <h2> Itens < Nome Vizinho>
+                    </h2>
+
+                    <div class="row border-light">
+                        <?php echo "Detalhe Item" ?>
+                    </div>
                     <!-- Itens do usuario sao listadas a partir daqui -->
                     <!-- Vamos utilizar bootstrap cards e o estilo do feeds para ter menos mudanças -->
                     <div class="row border-light">

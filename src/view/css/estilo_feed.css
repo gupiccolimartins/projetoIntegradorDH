@@ -89,6 +89,18 @@ h2 {
   line-height: 10px;
 }
 
+/* Seccao dos itens utilizando collapse */
+.div_feed_items .collapse_itens p {
+  margin: auto;
+}
+.div_feed_items .collapse_itens a {
+  font-size: 36px;
+  line-height: 36px;
+  text-shadow: 1px #111111;
+  font-family: Josefin Sans;
+  color: #a60356;
+  text-decoration: underline;
+}
 /* seccao do usuario na publicaco - Inicio */
 .card {
   margin-top: 20px;
