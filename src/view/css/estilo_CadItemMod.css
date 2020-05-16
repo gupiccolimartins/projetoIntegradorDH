@@ -273,3 +273,11 @@ td {
   visibility: hidden;
   position: absolute;
 }
+
+/* envio de informação de pedido*/
+.modal-notify .modal-header {
+  border-radius: 3px 3px 0 0;
+}
+.modal-notify .modal-content {
+  border-radius: 3px;
+}
