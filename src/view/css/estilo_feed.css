@@ -70,7 +70,7 @@ h2 {
 
 .div_feed_items {
   width: calc(100% - 40px); /*ocupa o 100% do tamanho das colunas*/
-  margin: 20px 0 20px 5px;
+  margin: 10px 0 20px 5px;
   background: white;
   border-radius: 10px;
   position: relative;
@@ -285,7 +285,7 @@ h2 {
   display: block;
   font-family: "Josefin Sans", sans-serif;
   color: #a60356;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   text-align: center;
 }

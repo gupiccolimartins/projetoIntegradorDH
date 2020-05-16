@@ -54,10 +54,10 @@
                 <section class="div_feed_items col-md-10">
                     <!-- Vamos utilizar bootstrap cards e o estilo do feeds para ter menos mudanças -->
                     <div class="row border-light">
+                        <!-- Detalhe do item publicado -->
                         <div class="col-sm-6">
                             <div class="card text-center border-light">
                                 <div class="card-body mb-3">
-                                    <!-- Detalhe do item publicado -->
                                     <a href="#">
                                         <img src="img/itens/furadeira.png" alt="Furadeira" title="Furadeira" />
                                     </a>
@@ -65,10 +65,10 @@
                                 </div>
                             </div>
                         </div>
+                        <!-- Detalhe do item publicado -->
                         <div class="col-sm-6">
                             <div class="card text-center border-light">
                                 <div class="card-body mb-3">
-                                    <!-- Detalhe do item publicado -->
                                     <a href="#">
                                         <img src="img/itens/muffin.png" alt="Forma muffin" title="Forma muffin" />
                                     </a>
@@ -78,10 +78,10 @@
                         </div>
                     </div>
                     <div class="row border-light">
+                        <!-- Detalhe do item publicado -->
                         <div class="col-sm-6">
                             <div class="card text-center border-light">
                                 <div class="card-body mb-3">
-                                    <!-- Detalhe do item publicado -->
                                     <a href="#">
                                         <img src="img/itens/guardasol.png" alt="Cadeira e Guardasol"
                                             title="Cadeira e Guardasol" />
@@ -91,12 +91,37 @@
                                 </div>
                             </div>
                         </div>
+                        <!-- Detalhe do item publicado -->
                         <div class="col-sm-6">
                             <div class="card text-center border-light">
                                 <div class="card-body mb-3">
-                                    <!-- Detalhe do item publicado -->
                                     <a href="#">
                                         <img src="img/itens/mala.png" alt="Mala de viagem" title="Mala de viagem" />
+                                    </a>
+                                    <h3>Mala de viagem</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row border-light">
+                        <!-- Detalhe do item publicado -->
+                        <div class="col-sm-6">
+                            <div class="card text-center border-light">
+                                <div class="card-body mb-3">
+                                    <a href="#">
+                                        <img src="img/itens/mergulho.png" alt="Kit mergulho" title="Kit mergulho" />
+                                    </a>
+                                    <h3>Cadeira e Guardasol</h3>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Detalhe do item publicado -->
+                        <div class="col-sm-6">
+                            <div class="card text-center border-light">
+                                <div class="card-body mb-3">
+                                    <a href="#">
+                                        <img src="img/itens/pesca.png" alt="Kit de pesca" title="Kit de pesca" />
                                     </a>
                                     <h3>Mala de viagem</h3>
                                 </div>
@@ -115,10 +140,10 @@
                         </p>
                         <div class="row collapse" id="collapseItems">
                             <div class="row border-light">
+                                <!-- Detalhe do item publicado -->
                                 <div class="col-sm-6">
                                     <div class="card text-center border-light">
                                         <div class="card-body mb-4">
-                                            <!-- Detalhe do item publicado -->
                                             <a href="#">
                                                 <img src="img/itens/furadeira.png" alt="Furadeira" title="Furadeira" />
                                             </a>
@@ -126,10 +151,10 @@
                                         </div>
                                     </div>
                                 </div>
+                                <!-- Detalhe do item publicado -->
                                 <div class="col-sm-6">
                                     <div class="card text-center border-light">
                                         <div class="card-body mb-4">
-                                            <!-- Detalhe do item publicado -->
                                             <a href="#">
                                                 <img src="img/itens/muffin.png" alt="Forma muffin"
                                                     title="Forma muffin" />
