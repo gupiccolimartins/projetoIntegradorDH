@@ -2,9 +2,7 @@
 <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./css/estilo_CadItemMod.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+ 
 <!-- <div class="container col-md-8"> -->
                     <!-- Section dos feeds -->
                     <!-- Aqui vem meu codigo - tem que utilizar bootstrap -->
@@ -19,12 +17,12 @@
                             <label for="imageUpload"></label>
                     </div>
                         <div class="avatar-preview">
-                          <div id="imagePreview" style="background-image: url(img/itens/newItem.PNG);">
-                          </div>
-                          <h6><small>clique na imagem para iniciar</small></h6>
+                            <div id="imagePreview" style="background-image: url(img/itens/newItem.PNG);">
+                            </div>
+                                <h6><small>clique na imagem para iniciar</small></h6>
                         </div>
-                  </div>
-        </div>
+                    </div>
+                </div>
 
                             <!-- Inserir java script para atualizar imagem da tela -->
                             <script src="../js/rendered-js.js"></script>
@@ -52,10 +50,10 @@
                             <!-- Disponibilidade do item -->
 
 <div class="container col-md-12 mb-5" style="text-align:left;">
-    <h3><br> Disponibilidade</h3> 
+    <h3><a><img src="./img/itens/calendar.png"/></a> Disponibilidade</h3> 
     <div class="row" >
         <div class="col-12" style="text-align:left; border-bottom:1px solid #ccc;">
-            <h4>dom a seg das: 9:00 as 18:00 </h4>
+        <h4>dom a seg das: 9:00 as 18:00 </h4>
         </div>
             <div class="col-md-12 mb-6; text-right text-md-right">
                 <br><a button type="button" class="btn btn-outline-secondary btn-lg">Cadastar</button></a>
