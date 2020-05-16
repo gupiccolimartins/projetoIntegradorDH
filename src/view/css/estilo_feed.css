@@ -54,6 +54,11 @@ h2 {
   margin-left: auto;
   text-align: center;
 }
+
+.user_data .links_painel_esquerdo{
+  text-align: start;
+}
+
 .user_data a img {
   height: 250px;
   width: auto;
