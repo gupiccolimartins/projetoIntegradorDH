@@ -109,6 +109,14 @@ h2 {
   margin-bottom: 10px;
   border-radius: 10px;
 }
+/* Estilo do form do perfil vizinho */
+.div_detalhe_view_item #message {
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
 /* Ocultando o icone da camera */
 #camera_div {
   display: none;
