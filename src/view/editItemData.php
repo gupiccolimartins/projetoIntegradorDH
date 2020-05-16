@@ -10,7 +10,7 @@
 <section class="div_detalhe_items">
     <div class="container">
         <div class="col-md-10 mb-md-0 mb-5">
-            <form action="PHP/file.php" mothod="POST" enctype="multipart/form-data">
+            <form action="PHP/file.php" method="POST" enctype="multipart/form-data">
                 <div class="container row">
                     <div id="camera_div">
                         <a href="#">
@@ -68,8 +68,8 @@
             <!-- Date Picker -->
             <div class="col-md-10 mb-4;">
                 <img src="img/icons/calendar.png" alt="Selecionar data" title="Selecionar data" />
-                <label for="meeting">Inicio : </label><input id="meeting" type="date" value="2020-05-20" />
-                <label for="meeting">Fim : </label><input id="meeting" type="date" value="2020-05-30" />
+                <label for="meetingInicio">Inicio : </label><input id="meetingInicio" type="date" value="2020-05-20" />
+                <label for="meetingFim">Fim : </label><input id="meetingFim" type="date" value="2020-05-30" />
             </div>
 
             <div class="row">

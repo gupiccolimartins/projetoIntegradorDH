@@ -31,7 +31,6 @@ h2 {
   font-family: "Josefin Sans", sans-serif;
   color: #a60356;
   padding-top: 25px;
-  padding-bottom: 25px;
   text-align: center;
 }
 
@@ -101,8 +100,15 @@ h2 {
   margin-right: auto;
   margin-left: auto;
 }
-/* Imagem div */
+/* Cadastro e detalhe dos Itens */
 
+.img_item img {
+  width: 400px;
+  height: 180px;
+  max-width: 400px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
 /* Ocultando o icone da camera */
 #camera_div {
   display: none;

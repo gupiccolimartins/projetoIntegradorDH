@@ -39,12 +39,12 @@
                 <section class="div_feed_items col-md-10">
                     <!-- Texto inicial antes dos itens do Usuario -->
                     <h2> Meus Itens </h2>
-                    <!-- Include do DetalheItem -->
+                    <!-- Incluindo o arquivo com o form para cadastro o ediçao de um item -->
                     <div class="row border-light">
                         <div class="col-md-12">
                             <div class="card  border-light">
                                 <div class="card-body">
-                                    <?php include('./itemData.php');?>
+                                    <?php include('./editItemData.php');?>
                                 </div>
                             </div>
                         </div>
