@@ -57,6 +57,7 @@ h2 {
 
 .user_data .links_painel_esquerdo{
   text-align: start;
+  color: inherit;
 }
 
 .user_data a img {

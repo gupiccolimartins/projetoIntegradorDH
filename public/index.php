@@ -98,7 +98,13 @@
                 </li>
             </ul>
         </div>
-    </div>
+    </div>,
+
+    <footer>
+        <div class="footer-copyright text-center">
+            <span class="text-muted">Place sticky footer content here.</span>
+        </div>
+    </footer>
 
 
 
