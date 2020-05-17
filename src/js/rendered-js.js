@@ -15,3 +15,25 @@ function readURL(input) {
 $("#imageUpload").change(function () {
   readURL(this);
 });
+
+
+/* Função para navegar entre perfis ao clicar na imagem do mesmo.
+Toda imagem de perfil clicavel deverá chamar essa função passando
+como parâmetro o this.src, a função então verifica o nome da imagem
+e direciona para o respectivo perfil */
+
+
+function redirectToProfile(_src) {
+
+  console.log(_src);
+
+  if (_src.includes("Fernando")) {
+
+      window.location.href = "PerfilUsuario.php";
+  } else {
+
+      window.location.href = "PerfilVizinho.php";
+  }
+}
+
+

@@ -5,6 +5,7 @@ Asi funciona como exemplo de ter todos os estilos em um solo arquivo CSS -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
 <link rel="stylesheet" href="./css/estilo_userData.css">
+<script src="../js/rendered-js.js"></script>
 <!-- Obtendo o nome do usuario dinamicamente segundo a pagina -->
 <?php
 $nomeUsuario = '';
@@ -24,8 +25,6 @@ if ($pagina == "PerfilVizinho.php") {
     $aptoUsuario = "Apto 84 Bloco B";
 } ?>
 
-<script src="../"></script>
-
 <section class="user_data">
 
     <h2>
@@ -35,7 +34,7 @@ if ($pagina == "PerfilVizinho.php") {
         ?>
     </h2>
     <a href="#">
-        <img onclick="getSource(this.src)" src="./img/avatar/<?php echo ("$usuario.png") ?>" alt=" perfil" , title="perfil" class="perfil" />
+        <img onclick="redirectToProfile(this.src)" src="./img/avatar/<?php echo ("$usuario.png") ?>" alt=" perfil" , title="perfil" class="perfil" />
     </a>
 
     <ul class="fa-ul">

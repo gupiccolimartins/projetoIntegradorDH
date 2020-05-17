@@ -6,7 +6,7 @@
     <title>Feed Itens</title>
     <link href="./css/estilo_feed.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <script src="../js/navigation.js"></script>
+    <script src="../js/rendered-js.js"></script>
 </head>
 
 <body>
@@ -38,7 +38,7 @@
                             <div class="info_usuario_publicacao container row">
                                 <div class="col-md-3 perfil">
                                     <a href="#">
-                                        <img onclick="getSource(this.src)" src="./img/avatar/Fernando.png" alt="perfil usuario logado" title="perfil usuario logado" />
+                                        <img onclick="redirectToProfile(this.src)" src="./img/avatar/Fernando.png" alt="perfil usuario logado" title="perfil usuario logado" />
                                     </a>
                                 </div>
                                 <div class="opcoes_usuario">
@@ -76,7 +76,7 @@
                                 <div class="info_usuario container row">
                                     <div class="col-md-3 perfil">
                                         <a href="#">
-                                            <img onclick="getSource(this.src)" src="./img/avatar/Marcelo.png" alt="perfil usuario da publicacao" title="perfil usuario da publicacao" />
+                                            <img onclick="redirectToProfile(this.src)" src="./img/avatar/Marcelo.png" alt="perfil usuario da publicacao" title="perfil usuario da publicacao" />
                                         </a>
                                     </div>
                                     <div class="opcoes_usuario">
