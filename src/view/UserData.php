@@ -1,32 +1,61 @@
-<!-- Esta pagina vai utilizar direito o estilo CSS "user_data" quie se encontra no CSS principal. estilo_feed_include.css 
-Asi funciona como exemplo de ter todos os estilos em um solo arquivo CSS -->
+<div class="container-fluid">
+        <div class="col-md-3 user_data">
+            <h1>Usuario Nome</h1>
+            <div class="profile-userpic">
+                <a href="#">
+                    <img src="../src/img/perfil.png" alt="perfil" , title="perfil" class="perfil" />
+                </a>
+            </div>
+            <ul style="list-style-type: none;">
+                <li>
+                    <h4>
+                        <i class="fas fa-user-circle"></i>
+                        Marcelo souza
+                    </h4>
+                </li>
+                <li>
+                    <h4>
+                        <i class="far fa-envelope"></i>
+                        f_souza@gmail.com
+                    </h4>
+                </li>
+                <li>
+                    <h4>
+                        <i class="far fa-building"></i>
+                        Apto 12 Bloco20
+                    </h4>
+                </li>
+                <li>
+                    <h4>
+                        <i class="fas fa-mobile-alt"></i>
+                        (XX)XXXXX-XXXX
+                    </h4>
+                </li>
+                <li>
+                    <a class="links_painel_esquerdo" href="#">
+                        <h4>
+                            <i class="fas fa-users"></i>
+                            Meus vizinhos
+                        </h4>
+                    </a>
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-
-<section class="user_data">
-    <h2>Nome Usuario</h2>
-    <a href="#">
-        <img src="./img/avatar/Fernando.png" alt="perfil" , title="perfil" class="perfil" />
-    </a>
-    <ul class="fa-ul">
-        <li><span class="fa-li"><i class="fas fa-user" style="font-size:20px ; color: #4682B4"></i></span>Marcelo
-            souzaqqq</li>
-        <li><span class="fa-li"><i class="fas fa-envelope"
-                    style="font-size:20px ; color: #4682B4"></i></span>Marcelo@souza.com</li>
-        <li><span class="fa-li"><i class="fas fa-building" style="font-size:20px ; color: #4682B4"></i></span>Apto 12
-            Bloco20</li>
-        <li><span class="fa-li"><i class="fas fa-check-square" style="font-size:20px ; color: #4682B4"></i></span>Seguir
-            - Mensagem</li>
-        <li><span class="fa-li"><i class="fas fa-users" style="font-size:20px ; color: #4682B4"></i></span>3 Vizinhos
-        </li>
-        <li><span class="fa-li"><i class="fas fa-people-carry" style="font-size:20px ; color: #4682B4"></i></span>3
-            Emprestimos</li>
-        <li><span class="fa-li"><i class="fas fa-thumbs-up"
-                    style="font-size:20px ; color: #4682B4"></i></span>Recomendeme</li>
-        <li><span class="fa-li"><i class="fas fa-heart" style="font-size:20px ; color: #4682B4"></i></span>0
-            Recomendaçoes</li>
-    </ul>
-    </ul>
-</section>
+                </li>
+                <li>
+                    <a class="links_painel_esquerdo" href="#">
+                        <h4>
+                            <i class="fas fa-users-cog"></i>
+                            Minha conta
+                        </h4>
+                    </a>
+                </li>
+                <li>
+                    <a class="links_painel_esquerdo" href="#">
+                        <h4>
+                            <i class="fas fa-sign-out-alt"></i>
+                            Sair
+                        </h4>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
