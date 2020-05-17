@@ -56,3 +56,14 @@ Asi funciona como exemplo de ter todos os estilos em um solo arquivo CSS -->
     </ul>
 
 </section>
+<br><br>
+<section>
+<div class="container">
+<ul class="fa-ul">
+    <li><span class="fa-li"><i class="fas fa-cog" style="font-size:20px ; color: #000000"></i></span> Configuração de conta</li>
+    <li><span class="fa-li"><i class="fas fas fa-sign-out-alt" style="font-size:20px ; color: #000000"></i></span> Sair</li>
+
+</ul>
+</div>
+<section>
+    
