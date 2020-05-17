@@ -183,6 +183,7 @@ textarea {
 
 .opcoes_usuario {
   text-align: left;
+  margin-left:0px;
 }
 .opcoes_usuario h3 {
   color: black;
@@ -192,6 +193,7 @@ textarea {
   font-weight: normal;
   font-size: 22px;
   line-height: 10px;
+
 }
 .opcoes_usuario p {
   margin-top: 1px;
@@ -202,6 +204,7 @@ textarea {
   font-size: 20px;
   line-height: 25px;
   text-align: left;
+  margin-left: 0px;
 }
 
 .opcoes_usuario_avaliacao ul li {

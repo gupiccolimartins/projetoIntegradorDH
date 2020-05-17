@@ -1,6 +1,6 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link href="./css/estilo_CadItemMod.css" rel="stylesheet" type="text/css" />
+<link href="./css/estilo_feed.css" rel="stylesheet" type="text/css" />
 <div class="container">
     <!-- <div class="container"> -->
     <div class="container col-md-12 mb-5" style="text-align:left;">
