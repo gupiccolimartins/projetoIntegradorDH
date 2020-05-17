@@ -82,6 +82,10 @@ h2 {
   font-size: 36px;
   line-height: 36px;
   text-shadow: 1px #111111;
+  font-family: "Josefin Sans", sans-serif;
+  color: #a60356;
+
+
 }
 .div_feed_items p {
   text-align: center;
@@ -119,7 +123,7 @@ h2 {
   text-align: left;
 }
 .card-body .info_usuario .perfil a img {
-  height: 80px;
+  height: 100px;
   text-align: left;
   border-radius: 50%;
   margin-bottom: 10px;
@@ -168,15 +172,41 @@ h2 {
 }
 
 .card-body .acoes_nova_publicacao a img {
-  width: 30px;
+  width: 40px;
 }
 
 /* CSS do div da resposta a uma publiccacao */
 
 .info_usuario_resposta {
-  border-top: 1px solid #c4c4c4;
-  margin: 10px;
+  padding-top: 15px;
   float: right;
+  margin: 5px 0 5px 0;
+}
+
+.info_usuario_resposta img{
+  width: 60px;
+  
+}
+
+.info_usuario_resposta h3 {
+  color: black;
+  margin-top: 10px;
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 10px;
+  text-align: left;
+}
+.info_usuario_resposta p {
+  margin-top: 1px;
+  margin-bottom: 0;
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: left;
 }
 .detalhe_item .resposta {
   text-align: right;
@@ -198,11 +228,11 @@ h2 {
 }
 .opcoes_usuario h3 {
   color: black;
-  margin-top: 20px;
+  margin-top: 10px;
   font-family: Josefin Sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
+  font-size: 22px;
   line-height: 10px;
 }
 .opcoes_usuario p {
@@ -241,14 +271,14 @@ h2 {
 
 .detalhe_item {
   text-align: left;
+  padding-bottom: 3px;
 }
 .detalhe_item a img {
-  width: calc(100% - 40px);
-  margin: 5px 5px 0 20px;
-  padding: 10px 0 0 0;
+  width: 100%;
+  position: relative;
+  box-sizing: border-box;
   max-height: 250px;
   border-radius: 10px 10px 0px 0px;
-}
 
 .detalhe_item h3 {
   font-family: Josefin Sans;
@@ -261,21 +291,26 @@ h2 {
 
 .detalhe_item h5 {
   text-align: left;
-  padding: 10px 0 0 0;
+  padding: 10px;
   font-family: Josefin Sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 25px;
-  margin: 0 25px 0 25px;
+  margin: 15px 25px 0 25px;
 }
+
 .acoes_detalhe_item {
   display: inline;
   text-align: center;
+  height: 20px;
+  padding: 5px;
+;
 }
 
 .acoes_detalhe_item a img {
   width: 22px;
+  height: 20px;
   margin-left: auto;
   margin-right: auto;
 }

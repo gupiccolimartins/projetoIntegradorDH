@@ -31,13 +31,13 @@
                         <div class="card-body col-md-12">
                             <!-- Foto e dados do usuario logado -->
                             <div class="info_usuario_publicacao container row">
-                                <div class="col-md-4 perfil">
+                                <div class="col-md-3 perfil">
                                     <a href="#">
                                         <img src="./img/avatar/Fernando.png" alt="perfil usuario logado"
                                             title="perfil usuario logado" />
                                     </a>
                                 </div>
-                                <div>
+                                <div class="opcoes_usuario">
                                     <h3>Fernando</h3>
                                     <p>Apto 205 - Bloco A</p>
                                 </div>
@@ -64,7 +64,7 @@
                 <!-- Seccao dos Feeds -->
                 <section class="div_feed_items col-md-10">
                     <!-- Texto inicial antes dos feeds -->
-                    <h2> O que seus vizinhos estão procurando!</h2>
+                    <h2> O que meus vizinhos estão compartilhando?</h2>
                     <p>Aqui você encontra os itens publicados recentemente</p>
                     <!-- Publicacoes feitas sao listadas a partir daqui -->
                     <article>
@@ -72,13 +72,13 @@
                             <div class="card-body col-md-12">
                                 <!-- Foto e dados do usuario -->
                                 <div class="info_usuario container row">
-                                    <div class="col-md-4 perfil">
+                                    <div class="col-md-3 perfil">
                                         <a href="#">
                                             <img src="./img/avatar/Marcelo.png" alt="perfil usuario da publicacao"
                                                 title="perfil usuario da publicacao" />
                                         </a>
                                     </div>
-                                    <div class=" col-md-6 opcoes_usuario">
+                                    <div class="opcoes_usuario">
                                         <h3>Marcelo</h3>
                                         <p>Apto 12 - Bloco A</p>
                                         <div class="opcoes_usuario_avaliacao">
@@ -99,33 +99,37 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="detalhe_item ">
+                                <div class="detalhe_item shadow-sm">
                                     <!-- Detalhe do item publicado -->
                                     <a href="#">
                                         <img src="img/itens/ferramenta1.png" alt="imagem item publicado"
                                             title="imagem item publicado" />
-                                    </a>
-                                    <h3>Ferramentas?? Eu tenho!</h3>
-                                    <div class="acoes_detalhe_item container row">
-                                        <div class="col-md-4">
+                                     </a> 
+                                    <h5>Ferramentas?? Eu tenho!</h5>
+                                </div> 
+                                <div class="row container mt-3">
+                                    <div class="col-md-4">
+                                        <div class="acoes_detalhe_item">
                                             <a href="#">
                                                 <img src="img/icons/favorite3.png" alt="favorito" title="favorito" />
                                             </a>
                                         </div>
-                                        <div class="col-md-4">
+                                    </div>     
+                                    <div class="col-md-4">  
+                                        <div class="acoes_detalhe_item">
                                             <a href="#">
                                                 <img src="img/icons/messagem.png" alt="message" title="message" />
                                             </a>
                                         </div>
-                                        <div class="col-md-4">
+                                    </div>
+                                    <div class="col-md-4"> 
+                                        <div class="acoes_detalhe_item">
                                             <a href="#">
-                                                <img src="img/icons/share2.svg" alt="compartilhar"
-                                                    title="compartilhar" />
+                                                <img src="img/icons/compartilhar.png" alt="compartilhar" title="compartilhar" />
                                             </a>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
                     </article>
                     <!-- Article com resposta, sem imagem so texto na publicacao -->
                     <article>
@@ -133,13 +137,13 @@
                             <div class="card-body col-md-12">
                                 <!-- Foto e dados do usuario -->
                                 <div class="info_usuario container row">
-                                    <div class="col-md-4 perfil">
+                                    <div class="col-md-3 perfil">
                                         <a href="#">
                                             <img src="img/avatar/Fernando.png" alt="perfil usuario da publicacao"
                                                 title="perfil usuario da publicacao" />
                                         </a>
                                     </div>
-                                    <div class=" col-md-6 opcoes_usuario">
+                                    <div class="opcoes_usuario">
                                         <h3>Fernando</h3>
                                         <p>Apto 205 - Bloco A</p>
                                         <div class="opcoes_usuario_avaliacao">
@@ -160,47 +164,56 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="detalhe_item ">
+                                <div class="detalhe_item shadow-sm ">
                                     <!-- Detalhe do item publicado -->
                                     <!-- Publicacao sem imagem -->
                                     <!-- <a href="#">
                                         <img src="img/ferramenta1.png" alt="imagem item publicado"
                                             title="imagem item publicado" />
                                     </a> -->
-                                    <h3>Alguém teria 4 ovos para me em-
-                                        prestar?</h3>
-                                    <div class="acoes_detalhe_item container row">
-                                        <div class="col-md-4">
+                                    <h5>Alguém teria 4 ovos para me emprestar?</h5>
+                                </div>    
+                                    <div class="row container mt-3">
+                                    <div class="col-md-4">
+                                        <div class="acoes_detalhe_item">
                                             <a href="#">
                                                 <img src="img/icons/favorite3.png" alt="favorito" title="favorito" />
                                             </a>
                                         </div>
-                                        <div class="col-md-4">
+                                    </div>     
+                                    <div class="col-md-4">  
+                                        <div class="acoes_detalhe_item">
                                             <a href="#">
                                                 <img src="img/icons/messagem.png" alt="message" title="message" />
                                             </a>
                                         </div>
-                                        <div class="col-md-4">
+                                    </div>
+                                    <div class="col-md-4"> 
+                                        <div class="acoes_detalhe_item">
                                             <a href="#">
-                                                <img src="img/icons/share2.svg" alt="compartilhar"
-                                                    title="compartilhar" />
+                                                <img src="img/icons/compartilhar.png" alt="compartilhar" title="compartilhar" />
                                             </a>
                                         </div>
                                     </div>
+                                </div>
+                                    
                                     <!-- Resposta a uma publicacao -->
-                                    <div class="info_usuario_resposta container d-flex justify-content-end">
-                                        <div class="col-md-4 perfil">
-                                            <a href="#">
-                                                <img src="./img/avatar/Lucia.png" alt="perfil usuario resposta"
+                                    <div class= "row container mt-3"> 
+                                        <div class="col-md-2">   
+                                            <div class="info_usuario_resposta">
+                                                <a href="#">
+                                                    <img src="./img/avatar/Lucia.png" alt="perfil usuario resposta"
                                                     title="perfil usuario resposta" />
-                                            </a>
-                                        </div>
-                                        <div>
+                                                </a> 
+                                            </div>   
+                                        </div> 
+                                        <div class="col-md-5 info_usuario_resposta">       
                                             <h3>Lucia</h3>
                                             <p>Apto 62 - Bloco B</p>
                                         </div>
                                     </div>
-                                    <div class="input-group  resposta col-md-10 d-flex justify-content-end">
+
+                                    <div class="input-group resposta col-md-12 d-flex justify-content-end">
                                         <textarea class="form-control" placeholder="Eu Tenho!" readonly></textarea>
                                     </div>
                                 </div>
@@ -212,13 +225,13 @@
                             <div class="card-body col-md-12">
                                 <!-- Foto e dados do usuario -->
                                 <div class="info_usuario container row">
-                                    <div class="col-md-4 perfil">
+                                    <div class="col-md-3 perfil">
                                         <a href="#">
                                             <img src="./img/avatar/Lucia.png" alt="perfil usuario da publicacao"
                                                 title="perfil usuario da publicacao" />
                                         </a>
                                     </div>
-                                    <div class=" col-md-6 opcoes_usuario">
+                                    <div class="opcoes_usuario">
                                         <h3>Lucia</h3>
                                         <p>Apto 62 - Bloco B</p>
                                         <div class="opcoes_usuario_avaliacao">
@@ -239,35 +252,39 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="detalhe_item ">
+                                <div class="detalhe_item shadow-sm">
                                     <!-- Detalhe do item publicado -->
                                     <a href="#">
                                         <img src="img/itens/ferramenta2.png" alt="imagem item publicado"
                                             title="imagem item publicado" />
-                                    </a>
-                                    <h3>Empresto essa bolsa linda, otima
-                                        para viajar!</h3>
-                                    <div class="acoes_detalhe_item container row">
-                                        <div class="col-md-4">
+                                     </a> 
+                                    <h5>Empresto essa bolsa linda, ótima para viajar!</h5>
+                                </div> 
+                                <div class="row container mt-3">
+                                    <div class="col-md-4">
+                                        <div class="acoes_detalhe_item">
                                             <a href="#">
                                                 <img src="img/icons/favorite3.png" alt="favorito" title="favorito" />
                                             </a>
                                         </div>
-                                        <div class="col-md-4">
+                                    </div>     
+                                    <div class="col-md-4">  
+                                        <div class="acoes_detalhe_item">
                                             <a href="#">
                                                 <img src="img/icons/messagem.png" alt="message" title="message" />
                                             </a>
                                         </div>
-                                        <div class="col-md-4">
+                                    </div>
+                                    <div class="col-md-4"> 
+                                        <div class="acoes_detalhe_item">
                                             <a href="#">
-                                                <img src="img/icons/share2.svg" alt="compartilhar"
-                                                    title="compartilhar" />
+                                                <img src="img/icons/compartilhar.png" alt="compartilhar" title="compartilhar" />
                                             </a>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
                     </article>
+                    
                 </section>
             </div>
         </div>
