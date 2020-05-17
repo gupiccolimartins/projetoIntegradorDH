@@ -1,5 +1,5 @@
 <meta charset="UTF-8" />
-<link href="./css/estilo_feed.css" rel="stylesheet" type="text/css" />
+<link href="./css/estilo_formularioItem.css" rel="stylesheet" type="text/css" />
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
@@ -7,13 +7,13 @@
 <!-- <div class="container col-md-8"> -->
 <!-- Section dos feeds -->
 <!-- Aqui vem meu codigo - tem que utilizar bootstrap -->
-<section class="div_detalhe_view_item">
-    <div class="container">
-        <div class="col-md-10 mb-md-0 mb-5">
-            <div class="container img_item">
+<section class="container">
+    
+        
+            <div class="detalhe-item-maior col-md-10">
                 <img src="img/itens/furadeiraView.png" alt="Detalhe Item" title="Detalhe Item" />
             </div>
-        </div>
+        
         <div class="row">
             <div class="col-md-10">
                 <div class="md-form mb-0">
@@ -46,5 +46,5 @@
             </div>
         </div>
         </form>
-    </div>
+    
 </section>
