@@ -21,8 +21,11 @@
         <!-- Panel esquerdo -->
         <div class="col-md-4">
             <!-- Including panel esquerdo do usuario: UserData -->
-            <?php include('./UserData.php'); ?>
-        </div>
+            <div class="menu-lateral">
+                    <!-- Including panel esquerdo do usuario: UserData -->
+                    <?php include('./UserData.php');?>         
+            </div>        
+         </div>
         <!-- Panel dereito -->
         <div class="col-md-8 container">
             <!-- Seccao de items -->

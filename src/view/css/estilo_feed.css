@@ -21,9 +21,13 @@ textarea {
 }
 
 /* Perfil  panel esquerdo*/
+.menu-lateral{
+  position: fixed;
+}
 /* Perfil Fim*/
 
 /* Feed Inicio */
+
 
 .div_feed_items {
   width: calc(100% - 40px); /*ocupa o 100% do tamanho das colunas*/
