@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+=======
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap");
+>>>>>>> e5978b72d64d70cd4a709e186c7f8e8b21022df1
 
 .estilo_footer {
   background: rgba(196, 196, 196, 0.25);
@@ -11,7 +15,11 @@
   font-family: Josefin Sans;
   font-style: normal;
   font-weight: normal;
+<<<<<<< HEAD
   font-size: 10px;
+=======
+  font-size: 16px;
+>>>>>>> e5978b72d64d70cd4a709e186c7f8e8b21022df1
   line-height: 24px;
   clear: both;
 }

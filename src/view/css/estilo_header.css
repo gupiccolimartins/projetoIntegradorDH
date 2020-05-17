@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+=======
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap");
+>>>>>>> e5978b72d64d70cd4a709e186c7f8e8b21022df1
 
 .section_header div {
   background: rgba(196, 196, 196, 0.25);
@@ -19,7 +23,11 @@
 .section_header nav ul li a {
   text-decoration: none;
   color: #a60356;
+<<<<<<< HEAD
   font-family: 'Josefin Sans', sans-serif;
+=======
+  font-family: "Josefin Sans", sans-serif;
+>>>>>>> e5978b72d64d70cd4a709e186c7f8e8b21022df1
   font-size: 20px;
   padding: 10px;
 }

@@ -4,10 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cadastro de Itens</title>
+<<<<<<< HEAD
     
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link href="./css/estilo_CadItemMod.css" rel="stylesheet" type="text/css" />
+=======
+    <link href="./css/estilo_feed.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+>>>>>>> e5978b72d64d70cd4a709e186c7f8e8b21022df1
 </head>
 
 
@@ -24,7 +31,9 @@
                     <!-- Including the left panel with the UserData -->
                     <?php include('./UserData.php');?>
                 </div>
+                <!-- Carrega form cadastro dos itens. -->
                 <div class="container col-md-8">
+<<<<<<< HEAD
                     <!-- Section dos feeds -->
                     <!-- Aqui vem meu codigo - tem que utilizar bootstrap -->
                     <section class="div_feed_items">
@@ -157,21 +166,34 @@
                                     </div>
                                 </div>
                             </div>
+=======
+                    <h2 style="text-align:left;"> Cadastro de itens </h2>
+                    <?php include('./itemData.php'); ?>
+                </div>
+>>>>>>> e5978b72d64d70cd4a709e186c7f8e8b21022df1
 
+                <!-- carrega detalhe dos itens -->
+                <section>
+                    <?php include('./DetalheDoItem.php'); ?>
+                </section>
+            </div>
+        </div>
 
     </main>
     <!-- Including the footer -->
     <div>
         <?php include('./Footer.php'); ?>
     </div>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
-
     <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>
-    <br>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>

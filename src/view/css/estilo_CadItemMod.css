@@ -1,5 +1,10 @@
 /* CSS do main */
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+=======
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap");
+
+>>>>>>> e5978b72d64d70cd4a709e186c7f8e8b21022df1
 body {
   margin: 0;
   background: white;
@@ -15,6 +20,7 @@ body {
 /* FIM main */
 
 /* Perfil  panel esquerdo*/
+<<<<<<< HEAD
 .user_data {
   width: calc(100% - 40px);
   margin: 20px 0 0 20px;
@@ -57,10 +63,12 @@ h2 {
   margin-bottom: 10px;
   text-align: center;
 }
+=======
+>>>>>>> e5978b72d64d70cd4a709e186c7f8e8b21022df1
 /* Perfil Fim*/
 
 /* Estilo da secao dos items do Feed */
-.main .container .div_feed_items {
+.main .container .div_detalhe_items {
   flex-basis: calc(100% - 40px);
   border-radius: 10px;
   margin: 20px 0 20px 5px;
@@ -69,9 +77,13 @@ h2 {
   padding-bottom: 10px;
   box-sizing: border-box;
   border-radius: 10px;
+<<<<<<< HEAD
   text-align: center;
+=======
+  text-align: left;
+>>>>>>> e5978b72d64d70cd4a709e186c7f8e8b21022df1
 }
-.main .container .div_feed_items .article_items {
+.main .container .div_detalhe_items .article_items {
   flex-basis: calc(100% - 40px);
   max-width: 800px;
   left: 582px;
@@ -80,10 +92,17 @@ h2 {
   background: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
+<<<<<<< HEAD
   width:226px;
 }
 
 .main .container .div_feed_items .article_items h2 { 
+=======
+  width: 226px;
+}
+
+.main .container .div_detalhe_items .article_items h2 {
+>>>>>>> e5978b72d64d70cd4a709e186c7f8e8b21022df1
   height: 40px;
   text-align: center;
   background-color: azure;
@@ -94,13 +113,60 @@ h2 {
   height:137px;
 } 
 
-.main .container .div_feed_items p {
+.main .container .div_detalhe_items .article_items a img {
+  width: 226px;
+  height: 137px;
+}
+
+.main .container .div_detalhe_items p {
   font-weight: lighter;
   text-align: center;
   margin-right: auto;
   margin-left: auto;
 }
+/* Cadastro e detalhe dos Itens */
 
+.img_item img {
+  width: 400px;
+  height: 180px;
+  max-width: 400px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+/* Estilo do form do perfil vizinho */
+.div_detalhe_view_item #message {
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+/* Ocultando o icone da camera */
+#camera_div {
+  display: none;
+}
+#camera_div a {
+  vertical-align: top;
+  border-style: none;
+  margin-bottom: 0px;
+  top: 10px;
+}
+#camera_div img {
+  width: 35px;
+  height: 35px;
+}
+#trash_div img {
+  width: 35px;
+  height: 35px;
+}
+#trash_div a {
+  vertical-align: bottom;
+  border-style: none;
+  margin-bottom: 0px;
+  width: 16px;
+  bottom: 0px;
+  position: absolute;
+}
 .article_items {
   /* border: 2px solid rgb(3, 9, 92); */
   /* position: relative; */
@@ -109,7 +175,29 @@ h2 {
   border-radius: 10px 10px 0px 0px;
 
   width: 280px;
-  height: 160px;
+  height: 180px;
+  /* padding: 50px; */
+  margin-right: auto;
+  margin-left: auto;
+  box-sizing: border-box;
+  float: left;
+  text-align: center;
+}
+
+.article_items_big a img {
+  width: 450px;
+  height: 400px;
+}
+
+.article_items_big {
+  /* border: 2px solid rgb(3, 9, 92); */
+  /* position: relative; */
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px 10px 0px 0px;
+
+  width: 700px;
+  height: 480px;
   /* padding: 50px; */
   margin-right: auto;
   margin-left: auto;
@@ -122,7 +210,6 @@ h2 {
 .avatar-upload {
   position: relative;
   max-width: 205px;
-  margin: 50px auto;
 }
 .avatar-upload .avatar-edit {
   position: absolute;
@@ -155,25 +242,36 @@ h2 {
   font-family: "FontAwesome";
   color: #757575;
   position: absolute;
-  top: 10px;
   left: 0;
   right: 0;
   text-align: center;
   margin: auto;
 }
 .avatar-upload .avatar-preview {
+<<<<<<< HEAD
   width: 220px;
   height: 171px;
   position: relative;
   border-radius: 10%;
   border: 0px solid #f8f8f8;
+=======
+  width: 180px;
+  height: 171px;
+  position: relative;
+  border: 1px solid #cccccc;
+>>>>>>> e5978b72d64d70cd4a709e186c7f8e8b21022df1
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
 }
-.avatar-upload .avatar-preview > div {
+.avatar-upload .avatar-preview div {
   width: 100%;
   height: 100%;
+<<<<<<< HEAD
   border-radius:0%;
   background-size: cover;
+=======
+  border-radius: 0%;
+  background-size: auto;
+>>>>>>> e5978b72d64d70cd4a709e186c7f8e8b21022df1
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -189,12 +287,17 @@ input {
   color: #616161;
   border-bottom: 1px solid #ced4da;
   outline: none;
+<<<<<<< HEAD
   transition: .2s ease-in-out;
+=======
+  transition: 0.2s ease-in-out;
+>>>>>>> e5978b72d64d70cd4a709e186c7f8e8b21022df1
   box-sizing: border-box;
 }
 
 label {
   top: 0;
+<<<<<<< HEAD
   left: 0; right: 0;
   border-bottom: 1px solid #616161;
   color: #616161;
@@ -204,12 +307,51 @@ label {
   font-size: 1rem;
   cursor: text;
   transition: .2s ease-in-out;
+=======
+  left: 0;
+  right: 0;
+  color: #616161;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  cursor: text;
+  transition: 0.2s ease-in-out;
+>>>>>>> e5978b72d64d70cd4a709e186c7f8e8b21022df1
   box-sizing: border-box;
 }
 
 input,
 label {
+<<<<<<< HEAD
   width: 100%;
   height: 50px;
   font-size: 1rem;
 }
+=======
+  font-size: 1rem;
+}
+
+.modal-backdrop.in {
+  opacity: 0.9;
+}
+
+table,
+th,
+td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.file {
+  visibility: hidden;
+  position: absolute;
+}
+
+/* envio de informação de pedido*/
+.modal-notify .modal-header {
+  border-radius: 3px 3px 0 0;
+}
+.modal-notify .modal-content {
+  border-radius: 3px;
+}
+>>>>>>> e5978b72d64d70cd4a709e186c7f8e8b21022df1

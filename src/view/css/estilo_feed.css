@@ -1,5 +1,9 @@
 /* Geral Inicio*/
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+=======
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap");
+>>>>>>> e5978b72d64d70cd4a709e186c7f8e8b21022df1
 
 body,
 p,
@@ -21,56 +25,17 @@ textarea {
 }
 
 /* Perfil  panel esquerdo*/
-.user_data {
-  width: calc(100% - 40px);
-  margin: 20px 0 0 20px;
-  background: white;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 10px;
-  position: relative;
-  padding-bottom: 10px;
-}
-.user_data h1,
-h2 {
-  font-family: Josefin Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 25px;
-  line-height: 25px;
-  text-align: center;
-  padding-top: 2rem;
-}
-
-.user_data p {
-  font-family: Josefin Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 25px;
-  line-height: 25px;
-  text-align: center;
-}
-.user_data a {
-  margin-right: auto;
-  margin-left: auto;
-  text-align: center;
-}
-.user_data a img {
-  height: 250px;
-  width: auto;
-  border-radius: 50%;
-  margin-right: auto;
-  margin-left: 5px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  text-align: center;
+.menu-lateral{
+  position: fixed;
 }
 /* Perfil Fim*/
 
 /* Feed Inicio */
 
+
 .div_feed_items {
   width: calc(100% - 40px); /*ocupa o 100% do tamanho das colunas*/
-  margin: 20px 0 20px 5px;
+  margin: 10px 0 20px 5px;
   background: white;
   border-radius: 10px;
   position: relative;
@@ -82,13 +47,33 @@ h2 {
   font-size: 36px;
   line-height: 36px;
   text-shadow: 1px #111111;
+  font-family: "Josefin Sans", sans-serif;
+  color: #a60356;
+
+
 }
 .div_feed_items p {
   text-align: center;
   font-size: 16px;
   line-height: 10px;
+<<<<<<< HEAD
+=======
+  margin: 15px;
+>>>>>>> e5978b72d64d70cd4a709e186c7f8e8b21022df1
 }
 
+/* Seccao dos itens utilizando collapse */
+.div_feed_items .collapse_itens p {
+  margin: auto;
+}
+.div_feed_items .collapse_itens a {
+  font-size: 36px;
+  line-height: 36px;
+  text-shadow: 1px #111111;
+  font-family: Josefin Sans;
+  color: #a60356;
+  text-decoration: underline;
+}
 /* seccao do usuario na publicaco - Inicio */
 .card {
   margin-top: 20px;
@@ -99,7 +84,11 @@ h2 {
 }
 .card-body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> e5978b72d64d70cd4a709e186c7f8e8b21022df1
   box-sizing: border-box;
   border-radius: 10px;
 }
@@ -107,7 +96,11 @@ h2 {
   text-align: left;
 }
 .card-body .info_usuario .perfil a img {
+<<<<<<< HEAD
   height: 80px;
+=======
+  height: 100px;
+>>>>>>> e5978b72d64d70cd4a709e186c7f8e8b21022df1
   text-align: left;
   border-radius: 50%;
   margin-bottom: 10px;
@@ -155,16 +148,47 @@ h2 {
   padding-top: 10px;
 }
 
+<<<<<<< HEAD
 .card-body .acoes_nova_publicacao a img{
   width: 30px;
+=======
+.card-body .acoes_nova_publicacao a img {
+  width: 40px;
+>>>>>>> e5978b72d64d70cd4a709e186c7f8e8b21022df1
 }
 
 /* CSS do div da resposta a uma publiccacao */
 
 .info_usuario_resposta {
-  border-top: 1px solid #c4c4c4;
-  margin: 10px;
+  padding-top: 15px;
   float: right;
+  margin: 5px 0 5px 0;
+}
+
+.info_usuario_resposta img{
+  width: 60px;
+  
+}
+
+.info_usuario_resposta h3 {
+  color: black;
+  margin-top: 10px;
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 10px;
+  text-align: left;
+}
+.info_usuario_resposta p {
+  margin-top: 1px;
+  margin-bottom: 0;
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: left;
 }
 .detalhe_item .resposta {
   text-align: right;
@@ -183,15 +207,22 @@ h2 {
 
 .opcoes_usuario {
   text-align: left;
+  margin-left:0px;
 }
 .opcoes_usuario h3 {
   color: black;
-  margin-top: 20px;
+  margin-top: 10px;
   font-family: Josefin Sans;
   font-style: normal;
   font-weight: normal;
+<<<<<<< HEAD
   font-size: 24px;
   line-height: 10px;
+=======
+  font-size: 22px;
+  line-height: 10px;
+
+>>>>>>> e5978b72d64d70cd4a709e186c7f8e8b21022df1
 }
 .opcoes_usuario p {
   margin-top: 1px;
@@ -202,6 +233,7 @@ h2 {
   font-size: 20px;
   line-height: 25px;
   text-align: left;
+  margin-left: 0px;
 }
 
 .opcoes_usuario_avaliacao ul li {
@@ -229,11 +261,12 @@ h2 {
 
 .detalhe_item {
   text-align: left;
+  padding-bottom: 3px;
 }
 .detalhe_item a img {
-  width: calc(100% - 40px);
-  margin: 5px 5px 0 20px;
-  padding: 10px 0 0 0;
+  width: 100%;
+  position: relative;
+  box-sizing: border-box;
   max-height: 250px;
   border-radius: 10px 10px 0px 0px;
 }
@@ -249,26 +282,39 @@ h2 {
 
 .detalhe_item h5 {
   text-align: left;
-  padding: 10px 0 0 0;
+  padding: 10px;
   font-family: Josefin Sans;
   font-style: normal;
   font-weight: normal;
+<<<<<<< HEAD
   font-size: 15px;
+=======
+  font-size: 14px;
+>>>>>>> e5978b72d64d70cd4a709e186c7f8e8b21022df1
   line-height: 25px;
-  margin: 0 25px 0 25px;
+  margin: 15px 25px 0 25px;
 }
+
 .acoes_detalhe_item {
   display: inline;
   text-align: center;
+  height: 20px;
+  padding: 5px;
+
 }
 
 .acoes_detalhe_item a img {
   width: 22px;
+<<<<<<< HEAD
+=======
+  height: 20px;
+>>>>>>> e5978b72d64d70cd4a709e186c7f8e8b21022df1
   margin-left: auto;
   margin-right: auto;
 }
 /* Opcoes do item Fim */
 
+<<<<<<< HEAD
 
 h2{
   display: block;
@@ -278,3 +324,13 @@ h2{
   padding-bottom:25px;
   text-align: center;
 }
+=======
+h2 {
+  display: block;
+  font-family: "Josefin Sans", sans-serif;
+  color: #a60356;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+>>>>>>> e5978b72d64d70cd4a709e186c7f8e8b21022df1
