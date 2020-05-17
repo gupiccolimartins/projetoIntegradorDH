@@ -55,9 +55,13 @@ textarea {
 .div_feed_items p {
   text-align: center;
   font-size: 16px;
+<<<<<<< HEAD
   line-height: 10px;
 <<<<<<< HEAD
 =======
+=======
+  line-height: 0px;
+>>>>>>> bdb4eb5643e5e14c9771da86c55c7a537da9beea
   margin: 15px;
 >>>>>>> e5978b72d64d70cd4a709e186c7f8e8b21022df1
 }
@@ -67,7 +71,7 @@ textarea {
   margin: auto;
 }
 .div_feed_items .collapse_itens a {
-  font-size: 36px;
+  font-size: 16px;
   line-height: 36px;
   text-shadow: 1px #111111;
   font-family: Josefin Sans;
