@@ -68,13 +68,13 @@
             <!-- Date Picker -->
             <div class="row">
                 <div class="col-md-1">   
-                    <label for="meetingInicio">Inicio : </label>
+                    <label for="meetingInicio">Inicio: </label>
                 </div>   
                 <div class="col-md-3">
                     <input id="meetingInicio" type="date" value="2020-05-20"/>
                 </div>   
                 <div class="col-md-1">
-                    <label for="meetingFim">Fim : </label>
+                    <label for="meetingFim">Fim: </label>
                 </div> 
                 <div class="col-md-3">
                     <input id="meetingFim" type="date" value="2020-05-30" />
