@@ -11,14 +11,14 @@ Asi funciona como exemplo de ter todos os estilos em um solo arquivo CSS -->
     <?php 
         $nomeUsuario='';
         $emailUSuario='';
-        $apto='';
+        $aptoUsuario='';
 
     $pagina= basename($_SERVER['PHP_SELF']);
     if ($pagina =="PerfilVizinho.php"){
         $usuario="Marcelo";
         $nomeUsuario= "Marcelo Silva";
         $emailUSuario="marcelo.silva@gmail.com";
-        $apto="Apto 12 Bloco20";
+        $aptoUsuario="Apto 12 Bloco20";
     }
     else{
         $usuario="Fernando";
@@ -38,14 +38,15 @@ Asi funciona como exemplo de ter todos os estilos em um solo arquivo CSS -->
 
     <ul class="fa-ul">
         <li><span class="fa-li"><i class="fas fa-user" style="font-size:20px ; color: #000000"></i>
-                </span<?php echo $nomeUsuario?>< /li>
+                </span><?php echo $nomeUsuario?></li>
         <li><span class="fa-li"><i class="fas fa-envelope"
                     style="font-size:20px ; color: #000000"></i></span><?php echo $emailUSuario?></li>
         <li><span class="fa-li"><i class="fas fa-building"
                     style="font-size:20px ; color: #000000"></i></span><?php echo $aptoUsuario?></li>
         <li><span class="fa-li"><i class="fas fa-check-square" style="font-size:20px ; color: #000000"></i></span> Mensagem</li>
+        <!-- verificar se os itens abaixo serão necessarios, pois invite é muito complicado a programacao e contagem de emprestimo será comprometida se fizer fora da plataforma -->
         <!-- <li><span class="fa-li"><i class="fas fa-users" style="font-size:20px ; color: #000000"></i></span>3 Vizinhos -->
-        </li>
+        <!-- </li> -->
         <!-- <li><span class="fa-li"><i class="fas fa-people-carry" style="font-size:20px ; color: #000000"></i></span>3 -->
             <!-- Emprestimos</li> -->
         <li><span class="fa-li"><i class="fas fa-thumbs-up"
