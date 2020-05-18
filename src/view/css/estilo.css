@@ -148,7 +148,7 @@ a {
   font-family: "Josefin Sans", sans-serif;
 }
 
-/* form {
+ form {
   font-family: "Josefin Sans", sans-serif;
   position: relative;
   left: 40px;
@@ -157,7 +157,6 @@ a {
 }
 .cadastro form {
   left: 0;
- } */
 
 input {
     outline: 0;

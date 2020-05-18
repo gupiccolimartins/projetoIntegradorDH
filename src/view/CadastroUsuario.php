@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="../src/view/css/estilo.css">
-    <script src="../htdocs/projetoIntegradorDH/src/js/cpf_formater.js"></script>
+    <script src="../src/js/cpf_formater.js"></script>
     <title>Cadastro - Vizinho online</title>
 </head>
 
@@ -45,9 +45,9 @@
                     <form method="get" action="envio_dados.php">
                         <input type="text" name="nome" placeholder="Nome Completo">
                         <hr /> <br />
-                        <input type="text" name="cpf" placeholder="CPF" onkeydown="javascript: fMasc( this, mCPF );">
+                        <input type="text" name="cpf" maxlength="14" placeholder="CPF" onkeydown="javascript: fMasc( this, mCPF );">
                         <hr /> <br />
-                        <input type="text" name="telefone" placeholder="Telefone" onkeydown="javascript: fMasc( this, mTel );">
+                        <input type="text" name="telefone" maxlength="14" placeholder="Telefone" onkeydown="javascript: fMasc( this, mTel );">
                         <hr /> <br />
 
                         <input type="e-mail" name="email" placeholder="Seu e-mail">
