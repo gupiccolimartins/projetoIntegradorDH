@@ -17,8 +17,8 @@
         <div class="row">
             <div class="col-md-10">
                 <div class="md-form mb-0">
-                    <label for="name" class="">Nome</label>
-                    <input type="text" id="name" name="name" value="Furadeira" class="form-control" disabled>
+                    <!-- <label for="name" class="">Nome</label> -->
+                    <input type="text" id="name" name="name" value="Furadeira" class="input" disabled>
                 </div>
             </div>
         </div>
@@ -26,25 +26,36 @@
             <div class="col-md-10">
                 <div class="md-form mb-0">
                     <label for="message">Descrição</label>
-                    <textarea type="text" id="message" name="message" rows="5" class="form-control md-textarea"
+                    <textarea type="text" id="message" name="message" rows="5" class="form-control"
                         disabled>FURADEIRA ELÉTRICA DE IMPACTO 950W. Ferramenta profissional indicada para operações de furação sem impacto em madeira, metal, plástico e cerâmica, e furação com impacto em tijolos, concreto, pedras e alvenarias. Também utilizado para operações de aperto e desaperto de parafusos quando utilizada em baixa velocidade.</textarea>
                 </div>
             </div>
         </div>
 
         <!-- Disponibilidade do item -->
-        <div class="col-md-12" style="text-align:left;">
-            <div id="calendar_div" class="col-md-2">
-                <label for="disponibilidade">Disponibilidade</label>
-            </div>
+        <div class="row">
+                <div class="col-md-1">
+                    <img src="img/icons/calendar.png" alt="Selecionar data" title="Selecionar data" />  
+                </div>
+                <div class="col-md-3">
+                    <label for="disponibilidade">Disponibilidade</label>
+                 </div>
+            </div>     
             <!-- Date Picker -->
-            <div class="col-md-10 mb-4;">
-                <img src="img/icons/calendar.png" alt="Selecionar data" title="Selecionar data" />
-                <label for="meeting">Inicio : </label><input id="meetingInicio" type="date" value="2020-05-20"
-                    disabled />
-                <label for="meeting">Fim : </label><input id="meetingFim" type="date" value="2020-05-30" disabled />
+            <div class="row">
+                <div class="col-md-1">   
+                    <label for="meetingInicio">Inicio: </label>
+                </div>   
+                <div class="col-md-3">
+                    <input id="meetingInicio" type="date" value="2020-05-20"/>
+                </div>   
+                <div class="col-md-1">
+                    <label for="meetingFim">Fim: </label>
+                </div> 
+                <div class="col-md-3">
+                    <input id="meetingFim" type="date" value="2020-05-30" />
+                </div>
             </div>
-        </div>
         </form>
     
 </section>

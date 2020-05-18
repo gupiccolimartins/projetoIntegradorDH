@@ -86,12 +86,12 @@
                                             <p>Mala</p>
                                     </div>
                                 </div>
-                    <!-- modal -->
+                    <!-- modal detalhe do item -->
                     <div class="modal fade" id="modaldetalhe" tabindex="-1" role="dialog">
                         <div class="modal-dialog modal-md" role="document">
                             <div class="modal-content">
                                 <div class="modal-header bg-light">
-                                    <h5 class="modal-title">item</h5>
+                                    <h5 class="modal-title">Item</h5>
                                         <button type="button" class="close" data-dismiss="modal">
                                             <span>&times;</span>
                                         </button>
@@ -106,13 +106,57 @@
                                 </div>
                              </div>
                              <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Eu Quero</button>
+                                <button type="button" class="btn btn-secondary" data-toggle="modal" data-dismiss="modal" data-target="#modalInteresse">Eu Quero</button>
                             </div>
                             </div>
                             
                         </div>
                     </div>
-
+                    <!-- Modal Mensagem de Interesse -->
+                    <div class="modal fade" id="modalInteresse" tabindex="-1" role="dialog">
+                        <div class="modal-dialog modal-md" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header bg-light">
+                                    <h5 class="modal-title">Mensagem</h5>
+                                        <button type="button" class="close" data-dismiss="modal">
+                                            <span>&times;</span>
+                                        </button>
+                                </div>
+                                <div class="row border-light">
+                                <div class="col-md-12">
+                                     <div class="">
+                                        <div class="">
+                                            <?php include('./Interesse.php'); ?>
+                                        </div>
+                                    </div>
+                                </div>
+                             </div>
+                             <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal" data-toggle="modal" data-target="#modalSucesso">Enviar</button>
+                            </div>
+                        </div>
+                            
+                        </div>
+                    </div>
+                    <!-- Modal Sucesso -->
+                    <div class="modal fade" id="modalSucesso" tabindex="-1" role="dialog">
+                        <div class="modal-dialog modal-md" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header bg-light">
+                                    <h5 class="modal-title">Mensagem Enviada</h5>
+                                        <button type="button" class="close" data-dismiss="modal">
+                                            <span>&times;</span>
+                                        </button>
+                                </div>
+                                <p>Um e-mail foi enviado para o proprietário do objeto! </p>
+                                <BR> <p>Em breve retornará o contato! </p>
+                             <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal" data-toggle="modal">Ok</button>
+                            </div>
+                        </div>
+                            
+                        </div>
+                    </div>
                 </div>    
             </div>                        
 
@@ -137,5 +181,4 @@
     <?php include('./Footer.php'); ?>
 </div>
 </body>
-
 </html>

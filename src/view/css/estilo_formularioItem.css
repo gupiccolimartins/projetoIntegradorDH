@@ -150,12 +150,7 @@ body {
   }
 /* detalhe do item maior */
 
-.detalhe-item-maior{
-  
-}
-.detalhe-item-maior img{
-  
-}
+
 
 
 /* ESTLO DO IMPUT */
@@ -173,10 +168,11 @@ input {
   box-sizing: border-box;
 }
 
-}
+
 
 input,
 label {
   width: 100%;
   height: 50px;
   font-size: 1rem;
+}
