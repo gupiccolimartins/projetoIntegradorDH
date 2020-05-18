@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="../src/view/css/estilo.css">
-    <script type="text/javascript" src="js/cpf_formater.js"></script>
+    <script src="../htdocs/projetoIntegradorDH/src/js/cpf_formater.js"></script>
     <title>Cadastro - Vizinho online</title>
 </head>
 
@@ -49,7 +49,7 @@
 
                             <div>
                                 <div class="campo1">
-                                    <input type="text" name="ap" placeholder="Apartamento">
+                                    <input type="text" name="ap" placeholder="Apto">
                                     <input type="text" name="bloco" placeholder="Bloco">
                                     <hr /> <br />
                                 </div>

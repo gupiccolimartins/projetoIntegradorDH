@@ -1,4 +1,6 @@
-			function fMasc(objeto,mascara) {
+<script>
+	
+	function fMasc(objeto,mascara) {
 				obj=objeto
 				masc=mascara
 				setTimeout("fMascEx()",1)
@@ -34,3 +36,5 @@
 				num=num.replace(/\D/g,"")
 				return num
 			}
+
+</script>
