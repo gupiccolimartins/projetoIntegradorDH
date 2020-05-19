@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="../src/view/css/estilo.css">
-    <script src="../src/js/cpf_formater.js"></script>
+    <link rel="stylesheet" href="../view/css/estilo.css">
+    <script src="../js/cpf_formater.js"></script>
     <title>Cadastro - Vizinho online</title>
 </head>
 
@@ -39,36 +39,44 @@
             
             <div class="col-1"></div>
     
-            <div class="col-4 text-center">
+            <div class="col-5 text-center">
                 <h2> Cadastro </h2>
                 <form id="frmPost" action="">
                     <form method="get" action="envio_dados.php">
                         <input type="text" name="nome" placeholder="Nome Completo">
                         <hr /> <br />
-                        <input type="text" name="cpf" maxlength="14" placeholder="CPF" onkeydown="javascript: fMasc( this, mCPF );">
-                        <hr /> <br />
-                        <input type="text" name="telefone" maxlength="14" placeholder="Telefone" onkeydown="javascript: fMasc( this, mTel );">
-                        <hr /> <br />
-
                         <input type="e-mail" name="email" placeholder="Seu e-mail">
                         <hr /> <br />
-
-
-
+                        <input type="text" name="cpf" maxlength="14" placeholder="CPF" onkeydown="javascript: fMasc( this, mCPF );">
+                        <hr /> <br />
                         <div>
-                            <div class="campo1">
+                            <div class="form-group">
+                            <input type="text" name="telefone" maxlength="14" placeholder="Telefone" onkeydown="javascript: fMasc( this, mTel );">
+                            <input type="text" name="interfone" placeholder="Interfone">
+                                <hr /> <br />
+                            </div>
+                        <hr /> <br />
+                        <div>
+                            <div class="form-group">
                                 <input type="text" name="ap" placeholder="Apto">
                                 <input type="text" name="bloco" placeholder="Bloco">
                                 <hr /> <br />
                             </div>
-                            <input type="text" name="interfone" placeholder="Interfone">
                             <hr /><br />
+                            <div class="form-group">
+                                <input type="text" name="password" placeholder="Senha">
+                                <input type="text" name="repeat-password" placeholder="Confirmar Senha">
+                                <hr /> <br />
+                            </div>
+                            
 
                         </div>
 
-                        <div class="button_cadastro">
+                        <div>
 
-                            <input type="submit" name="Cadastrar" value="Cadastrar">
+                            <button type="button" class="btn btn-secondary">Cadastrar</button>
+<!-- 
+                            <input class="btn-secundary" type="submit" name="Cadastrar" value="Cadastrar"> -->
                         </div>
 
                     </form>
