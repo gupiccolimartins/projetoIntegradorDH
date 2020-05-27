@@ -31,7 +31,10 @@
             <!-- Panel esquerdo -->
             <div class="col-md-4">
                 <!-- Including panel esquerdo do usuario: UserData -->
-                <?php include('./UserData.php');?>
+                <div class="menu-lateral">
+                    <!-- Including panel esquerdo do usuario: UserData -->
+                    <?php include('./UserData.php');?>
+                </div>
             </div>
             <!-- Panel dereito -->
             <div class="col-md-8 container">
@@ -40,6 +43,61 @@
                     <!-- Texto inicial antes dos itens do Usuario -->
                     <h2> Meus Itens </h2>
                     <!-- Incluindo o arquivo com o form para cadastro o ediçao de um item -->
+                    <!-- Itens do usuario sao listadas a partir daqui -->
+
+                    <div class="row">
+                        <div class="col">
+                            <article class="article_items">
+                                <a href="#">
+                                    <img src="img/itens/furadeira.png" alt="item" title="item" />
+                                </a>
+                                <p>Furadeira</p>
+                        </div>
+                        <div class="col">
+                            <article class="article_items">
+                                <a href="#">
+                                    <img src="img/itens/muffin.png" alt="item" title="item" />
+                                </a>
+                                <p>Muffin</p>
+                        </div>
+                    </div>
+
+                    <!-- Vamos utilizar bootstrap cards e o estilo do feeds para ter menos mudanças -->
+                    <div class="row">
+                        <div class="col">
+                            <article class="article_items">
+                                <a href="#">
+                                    <img src="img/itens/guardasol.png" alt="Cadeira e Guarda-sol" title="item" />
+                                </a>
+                                <p>Cadeira e Guarda-sol</p>
+                        </div>
+                        <div class="col">
+                            <article class="article_items">
+                                <a href="#">
+                                    <img src="img/itens/mala.png" alt="Mala" title="item" />
+                                </a>
+                                <p>Mala</p>
+                        </div>
+                    </div>
+
+                    <!-- Detalhe do item publicado -->
+                    <div class="row">
+                        <div class="col">
+                            <article class="article_items">
+                                <a href="#">
+                                    <img src="img/itens/mergulho.png" alt="Mergulho" title="item" />
+                                </a>
+                                <p>Mergulho</p>
+                        </div>
+                        <div class="col">
+                            <article class="article_items">
+                                <a href="#">
+                                    <img src="img/itens/pesca.png" alt="Pesca" title="item" />
+                                </a>
+                                <p>Mala</p>
+                        </div>
+                    </div>
+                    <h2>Adicione mais itens</h2>
                     <div class="row border-light">
                         <div class="col-md-12">
                             <div class="card  border-light">
@@ -49,125 +107,11 @@
                             </div>
                         </div>
                     </div>
-                </section>
-                <!-- Itens do usuario sao listadas a partir daqui -->
-                <section class="div_feed_items col-md-10">
-                    <!-- Vamos utilizar bootstrap cards e o estilo do feeds para ter menos mudanças -->
-                    <div class="row border-light">
-                        <!-- Detalhe do item publicado -->
-                        <div class="col-sm-6">
-                            <div class="card text-center border-light">
-                                <div class="card-body mb-3">
-                                    <a href="#">
-                                        <img src="img/itens/furadeira.png" alt="Furadeira" title="Furadeira" />
-                                    </a>
-                                    <h3>Furadeira</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Detalhe do item publicado -->
-                        <div class="col-sm-6">
-                            <div class="card text-center border-light">
-                                <div class="card-body mb-3">
-                                    <a href="#">
-                                        <img src="img/itens/muffin.png" alt="Forma muffin" title="Forma muffin" />
-                                    </a>
-                                    <h3>Forma muffin</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row border-light">
-                        <!-- Detalhe do item publicado -->
-                        <div class="col-sm-6">
-                            <div class="card text-center border-light">
-                                <div class="card-body mb-3">
-                                    <a href="#">
-                                        <img src="img/itens/guardasol.png" alt="Cadeira e Guardasol"
-                                            title="Cadeira e Guardasol" />
-                                    </a>
-                                    <h3>Cadeira e Guardasol</h3>
-
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Detalhe do item publicado -->
-                        <div class="col-sm-6">
-                            <div class="card text-center border-light">
-                                <div class="card-body mb-3">
-                                    <a href="#">
-                                        <img src="img/itens/mala.png" alt="Mala de viagem" title="Mala de viagem" />
-                                    </a>
-                                    <h3>Mala de viagem</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row border-light">
-                        <!-- Detalhe do item publicado -->
-                        <div class="col-sm-6">
-                            <div class="card text-center border-light">
-                                <div class="card-body mb-3">
-                                    <a href="#">
-                                        <img src="img/itens/mergulho.png" alt="Kit mergulho" title="Kit mergulho" />
-                                    </a>
-                                    <h3>Cadeira e Guardasol</h3>
-
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Detalhe do item publicado -->
-                        <div class="col-sm-6">
-                            <div class="card text-center border-light">
-                                <div class="card-body mb-3">
-                                    <a href="#">
-                                        <img src="img/itens/pesca.png" alt="Kit de pesca" title="Kit de pesca" />
-                                    </a>
-                                    <h3>Mala de viagem</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <!-- Mais Itens Collapsiveis -->
-                <section class="div_feed_items col-md-10">
-                    <div class="border-light collapse_itens">
-                        <p>
-                            <a data-toggle="collapse" href="#collapseItems" role="button" aria-expanded="false"
-                                aria-controls="collapseItems">
-                                Mais Itens
-                            </a>
-                        </p>
-                        <div class="row collapse" id="collapseItems">
-                            <div class="row border-light">
-                                <!-- Detalhe do item publicado -->
-                                <div class="col-sm-6">
-                                    <div class="card text-center border-light">
-                                        <div class="card-body mb-4">
-                                            <a href="#">
-                                                <img src="img/itens/furadeira.png" alt="Furadeira" title="Furadeira" />
-                                            </a>
-                                            <h3>Furadeira</h3>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Detalhe do item publicado -->
-                                <div class="col-sm-6">
-                                    <div class="card text-center border-light">
-                                        <div class="card-body mb-4">
-                                            <a href="#">
-                                                <img src="img/itens/muffin.png" alt="Forma muffin"
-                                                    title="Forma muffin" />
-                                            </a>
-                                            <h3>Forma muffin</h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
             </div>
+
+            </section>
+        </div>
+
         </div>
     </main>
     <!-- Including the footer -->

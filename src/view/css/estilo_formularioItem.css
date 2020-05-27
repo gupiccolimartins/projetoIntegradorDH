@@ -1,6 +1,5 @@
 /* CSS do main */
-@import url("https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap");
-
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
 body {
   margin: 0;
   background: white;
@@ -13,13 +12,9 @@ body {
   margin: 10px 0 0 0;
 }
 
-/* FIM main */
-
-/* Perfil  panel esquerdo*/
-/* Perfil Fim*/
 
 /* Estilo da secao dos items do Feed */
-.main .container .div_detalhe_items {
+.main .container .div_feed_items {
   flex-basis: calc(100% - 40px);
   border-radius: 10px;
   margin: 20px 0 20px 5px;
@@ -28,9 +23,9 @@ body {
   padding-bottom: 10px;
   box-sizing: border-box;
   border-radius: 10px;
-  text-align: left;
+  text-align: center;
 }
-.main .container .div_detalhe_items .article_items {
+.main .container .div_feed_items .article_items {
   flex-basis: calc(100% - 40px);
   max-width: 800px;
   left: 582px;
@@ -39,69 +34,27 @@ body {
   background: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
-  width: 226px;
+  width:226px;
 }
 
-.main .container .div_detalhe_items .article_items h2 {
+.main .container .div_feed_items .article_items h2 { 
   height: 40px;
   text-align: center;
   background-color: azure;
-}
+ }
 
-.main .container .div_detalhe_items .article_items a img {
-  width: 226px;
-  height: 137px;
-}
+.main .container .div_feed_items .article_items a img{
+  width:226px;
+  height:137px;
+} 
 
-.main .container .div_detalhe_items p {
+.main .container .div_feed_items p {
   font-weight: lighter;
   text-align: center;
   margin-right: auto;
   margin-left: auto;
 }
-/* Cadastro e detalhe dos Itens */
 
-.img_item img {
-  width: 400px;
-  height: 180px;
-  max-width: 400px;
-  margin-bottom: 10px;
-  border-radius: 10px;
-}
-/* Estilo do form do perfil vizinho */
-.div_detalhe_view_item #message {
-  font-family: Josefin Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 16px;
-}
-/* Ocultando o icone da camera */
-#camera_div {
-  display: none;
-}
-#camera_div a {
-  vertical-align: top;
-  border-style: none;
-  margin-bottom: 0px;
-  top: 10px;
-}
-#camera_div img {
-  width: 35px;
-  height: 35px;
-}
-#trash_div img {
-  width: 35px;
-  height: 35px;
-}
-#trash_div a {
-  vertical-align: bottom;
-  border-style: none;
-  margin-bottom: 0px;
-  width: 16px;
-  bottom: 0px;
-  position: absolute;
-}
 .article_items {
   /* border: 2px solid rgb(3, 9, 92); */
   /* position: relative; */
@@ -110,29 +63,7 @@ body {
   border-radius: 10px 10px 0px 0px;
 
   width: 280px;
-  height: 180px;
-  /* padding: 50px; */
-  margin-right: auto;
-  margin-left: auto;
-  box-sizing: border-box;
-  float: left;
-  text-align: center;
-}
-
-.article_items_big a img {
-  width: 450px;
-  height: 400px;
-}
-
-.article_items_big {
-  /* border: 2px solid rgb(3, 9, 92); */
-  /* position: relative; */
-  background: #ffffff;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 10px 10px 0px 0px;
-
-  width: 700px;
-  height: 480px;
+  height: 160px;
   /* padding: 50px; */
   margin-right: auto;
   margin-left: auto;
@@ -145,13 +76,13 @@ body {
 .avatar-upload {
   position: relative;
   max-width: 205px;
+  margin: 50px auto;
 }
 .avatar-upload .avatar-edit {
   position: absolute;
   right: 5px;
   z-index: 1;
   top: 10px;
-
 }
 .avatar-upload .avatar-edit input {
   display: none;
@@ -178,27 +109,50 @@ body {
   font-family: "FontAwesome";
   color: #757575;
   position: absolute;
+  top: 10px;
   left: 0;
   right: 0;
   text-align: center;
   margin: auto;
 }
 .avatar-upload .avatar-preview {
-  width: 180px;
+  width: 220px;
   height: 171px;
   position: relative;
-  border: 1px solid #cccccc;
+  border-radius: 10%;
+  border: 0px solid #f8f8f8;
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
 }
-.avatar-upload .avatar-preview div {
+.avatar-upload .avatar-preview > div {
   width: 100%;
   height: 100%;
-  border-radius: 0%;
-  background-size: auto;
+  border-radius:0%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
-/* Feed Fim*/
+
+#trash_div img {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    bottom: 50;
+    right: 150px;
+    
+  }
+  #trash_div a {
+    vertical-align: bottom;
+    border-style: none;
+    margin-bottom: 0px;
+    width: 16px;
+    bottom: 0px;
+    
+  }
+/* detalhe do item maior */
+
+
+
+
 /* ESTLO DO IMPUT */
 
 .input-container {
@@ -210,48 +164,15 @@ input {
   color: #616161;
   border-bottom: 1px solid #ced4da;
   outline: none;
-  transition: 0.2s ease-in-out;
+  transition: .2s ease-in-out;
   box-sizing: border-box;
 }
 
-label {
-  top: 0;
-  left: 0;
-  right: 0;
-  color: #616161;
-  display: flex;
-  align-items: center;
-  font-size: 1rem;
-  cursor: text;
-  transition: 0.2s ease-in-out;
-  box-sizing: border-box;
-}
+
 
 input,
 label {
+  width: 100%;
+  height: 50px;
   font-size: 1rem;
-}
-
-.modal-backdrop.in {
-  opacity: 0.9;
-}
-
-table,
-th,
-td {
-  text-align: center;
-  vertical-align: middle;
-}
-
-.file {
-  visibility: hidden;
-  position: absolute;
-}
-
-/* envio de informação de pedido*/
-.modal-notify .modal-header {
-  border-radius: 3px 3px 0 0;
-}
-.modal-notify .modal-content {
-  border-radius: 3px;
 }
